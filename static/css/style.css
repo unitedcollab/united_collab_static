@@ -137,8 +137,8 @@ header.scrolled {
 
 header .header-container {
   width: 100%;
-  max-width: 1454px;
-  padding: 0 50px;
+  max-width: 1170px;
+  padding: 0 20px;
 }
 
 header .logo {
@@ -192,6 +192,7 @@ nav {
   line-height: 95px;
   margin-bottom: 20px;
   z-index: 2;
+  text-align: center;
 }
 
 .hero a {
