@@ -1,908 +1,1639 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
-<head>
-
+  <head>
     <!-- Meta UTF8 charset -->
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="initial-scale=1.0" />
-    <meta name="viewport"
-        content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui" />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui"
+    />
     <meta name="theme-color" content="#056EB9" />
     <meta name="msapplication-navbutton-color" content="#056EB9" />
     <meta name="apple-mobile-web-app-status-bar-style" content="#056EB9" />
     <title>Capabilities &#8211; United Collab</title>
-    <meta name='robots' content='max-image-preview:large' />
-    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-    <link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
-    <link rel='stylesheet' id='wp-block-library-css' href='assets/css/style.min.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='classic-theme-styles-css' href='assets/css/classic-themes.min.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='bootstrap-css' href='assets/css/bootstrap/bootstrap.min.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='animate-css' href='assets/css/animate/animate.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='ionicons-css' href='assets/css/ionicons/ionicons.min.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='fontawesome-all-css' href='assets/css/fontawesome/fontawesome-all.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='helper-css' href='assets/css/helper/helper.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='hamburgers-css' href='assets/css/hamburgers/hamburgers.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='all-cursors-css' href='assets/css/cursor/all-cursors.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='nice-select-css' href='assets/css/nice-select/nice-select.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='wavo-style-css' href='assets/css/style.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='wavo-update-css' href='assets/css/update/update.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='wavo-fonts-css'
-        href='//fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C600%2C700%7CUbuntu%3A400%2C500%2C700%7CPoppins%3A200%2C300%2C400%2C500%2C600%2C700%2C800%7CRoboto%2BMono%3A400%2C700&#038;subset=latin%2Clatin-ext'
-        type='text/css' media='all' />
+    <meta name="robots" content="max-image-preview:large" />
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link href="https://fonts.gstatic.com" crossorigin rel="preconnect" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-        rel="stylesheet">
-    <link rel='stylesheet' id='elementor-frontend-legacy-css' href='assets/css/elementor/frontend-legacy.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-frontend-css' href='assets/css/elementor/frontend.min.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='elementor-post-25-css' href='assets/css/elementor/post-25.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='wavo-custom-css' href='assets/css/elementor/custom.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-post-4841-css' href='assets/css/elementor/post-4841.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='the-grid-css' href='assets/css/the-grid/the-grid.min.css' type='text/css' media='all' />
-    <link rel="preload" as="style"
-        href="https://fonts.googleapis.com/css?family=Zilla%20Slab:300,400,500,600,700,300italic,400italic,500italic,600italic,700italic&#038;subset=latin&#038;display=swap&#038;ver=1687364399" />
-    <link rel="stylesheet"
+      rel="stylesheet"
+      id="wp-block-library-css"
+      href="assets/css/style.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="classic-theme-styles-css"
+      href="assets/css/classic-themes.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="bootstrap-css"
+      href="assets/css/bootstrap/bootstrap.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="animate-css"
+      href="assets/css/animate/animate.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ionicons-css"
+      href="assets/css/ionicons/ionicons.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="fontawesome-all-css"
+      href="assets/css/fontawesome/fontawesome-all.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="helper-css"
+      href="assets/css/helper/helper.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="hamburgers-css"
+      href="assets/css/hamburgers/hamburgers.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="all-cursors-css"
+      href="assets/css/cursor/all-cursors.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="nice-select-css"
+      href="assets/css/nice-select/nice-select.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="wavo-style-css"
+      href="assets/css/style.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="wavo-update-css"
+      href="assets/css/update/update.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="wavo-fonts-css"
+      href="//fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C600%2C700%7CUbuntu%3A400%2C500%2C700%7CPoppins%3A200%2C300%2C400%2C500%2C600%2C700%2C800%7CRoboto%2BMono%3A400%2C700&#038;subset=latin%2Clatin-ext"
+      type="text/css"
+      media="all"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-frontend-legacy-css"
+      href="assets/css/elementor/frontend-legacy.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-frontend-css"
+      href="assets/css/elementor/frontend.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-post-25-css"
+      href="assets/css/elementor/post-25.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="wavo-custom-css"
+      href="assets/css/elementor/custom.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-post-4841-css"
+      href="assets/css/elementor/post-4841.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="the-grid-css"
+      href="assets/css/the-grid/the-grid.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css?family=Zilla%20Slab:300,400,500,600,700,300italic,400italic,500italic,600italic,700italic&#038;subset=latin&#038;display=swap&#038;ver=1687364399"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Zilla%20Slab:300,400,500,600,700,300italic,400italic,500italic,600italic,700italic&#038;subset=latin&#038;display=swap&#038;ver=1687364399"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Zilla%20Slab:300,400,500,600,700,300italic,400italic,500italic,600italic,700italic&#038;subset=latin&#038;display=swap&#038;ver=1687364399"
-        media="print" onload="this.media='all'"><noscript>
-        <link rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Zilla%20Slab:300,400,500,600,700,300italic,400italic,500italic,600italic,700italic&#038;subset=latin&#038;display=swap&#038;ver=1687364399" />
+      />
     </noscript>
-    <link rel='stylesheet' id='google-fonts-1-css'
-        href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CZilla+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CZilla+Slab+Highlight%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.2.2'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-icons-shared-0-css' href='assets/css/fontawesome/fontawesome.min.css'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-icons-fa-solid-css' href='assets/css/fontawesome/solid.min.css' type='text/css'
-        media='all' />
-    <script type='text/javascript' src='assets/js/jquery.min.js' id='jquery-core-js'></script>
-    <script type='text/javascript' src='assets/js/jquery-migrate.min.js' id='jquery-migrate-js'></script>
-    <script type='text/javascript' src='assets/js/wow/wow.min.js' id='wow-js'></script>
-    <script type='text/javascript' src='assets/js/cursor/all-cursors.js' id='all-cursors-js'></script>
-    <script type='text/javascript' src='assets/js/nice-select/jquery-nice-select.min.js' id='jquery-nice-select-js'>
-    </script>
-    <link rel="icon" href="assets/img/cropped-UC_flashdrive_back2-32x32.png" sizes="32x32" />
-    <link rel="icon" href="assets/img/cropped-UC_flashdrive_back2-192x192.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="assets/img/cropped-UC_flashdrive_back2-180x180.png" />
-    <meta name="msapplication-TileImage" content="assets/img/cropped-UC_flashdrive_back2-270x270.png" />
-</head>
+    <link
+      rel="stylesheet"
+      id="google-fonts-1-css"
+      href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CZilla+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CZilla+Slab+Highlight%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.2.2"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-icons-shared-0-css"
+      href="assets/css/fontawesome/fontawesome.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-icons-fa-solid-css"
+      href="assets/css/fontawesome/solid.min.css"
+      type="text/css"
+      media="all"
+    />
+    <script
+      type="text/javascript"
+      src="assets/js/jquery.min.js"
+      id="jquery-core-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/jquery-migrate.min.js"
+      id="jquery-migrate-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/wow/wow.min.js"
+      id="wow-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/cursor/all-cursors.js"
+      id="all-cursors-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/nice-select/jquery-nice-select.min.js"
+      id="jquery-nice-select-js"
+    ></script>
+    <link
+      rel="icon"
+      href="assets/img/cropped-UC_flashdrive_back2-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      href="assets/img/cropped-UC_flashdrive_back2-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="assets/img/cropped-UC_flashdrive_back2-180x180.png"
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="assets/img/cropped-UC_flashdrive_back2-270x270.png"
+    />
+  </head>
 
-<!-- BODY START -->
+  <!-- BODY START -->
 
-<body
-    class="page-template page-template-wavo-elementor-page page-template-wavo-elementor-page-php page page-id-4841  Wavo Child nt-version-1.1.9 preloader-on split-animation-enabled use-elementor-style-kit nt-chrome nt-desktop elementor-default elementor-kit-25 elementor-page elementor-page-4841">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-dark-grayscale">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0 0.498039215686" />
-                    <feFuncG type="table" tableValues="0 0.498039215686" />
-                    <feFuncB type="table" tableValues="0 0.498039215686" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
+  <body
+    class="page-template page-template-wavo-elementor-page page-template-wavo-elementor-page-php page page-id-4841 Wavo Child nt-version-1.1.9 preloader-on split-animation-enabled use-elementor-style-kit nt-chrome nt-desktop elementor-default elementor-kit-25 elementor-page elementor-page-4841"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 0 0"
+      width="0"
+      height="0"
+      focusable="false"
+      role="none"
+      style="
+        visibility: hidden;
+        position: absolute;
+        left: -9999px;
+        overflow: hidden;
+      "
+    >
+      <defs>
+        <filter id="wp-duotone-dark-grayscale">
+          <feColorMatrix
+            color-interpolation-filters="sRGB"
+            type="matrix"
+            values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
+          />
+          <feComponentTransfer color-interpolation-filters="sRGB">
+            <feFuncR type="table" tableValues="0 0.498039215686" />
+            <feFuncG type="table" tableValues="0 0.498039215686" />
+            <feFuncB type="table" tableValues="0 0.498039215686" />
+            <feFuncA type="table" tableValues="1 1" />
+          </feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in" />
+        </filter>
+      </defs>
     </svg>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-grayscale">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0 1" />
-                    <feFuncG type="table" tableValues="0 1" />
-                    <feFuncB type="table" tableValues="0 1" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-purple-yellow">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0.549019607843 0.988235294118" />
-                    <feFuncG type="table" tableValues="0 1" />
-                    <feFuncB type="table" tableValues="0.717647058824 0.254901960784" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 0 0"
+      width="0"
+      height="0"
+      focusable="false"
+      role="none"
+      style="
+        visibility: hidden;
+        position: absolute;
+        left: -9999px;
+        overflow: hidden;
+      "
+    >
+      <defs>
+        <filter id="wp-duotone-grayscale">
+          <feColorMatrix
+            color-interpolation-filters="sRGB"
+            type="matrix"
+            values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
+          />
+          <feComponentTransfer color-interpolation-filters="sRGB">
+            <feFuncR type="table" tableValues="0 1" />
+            <feFuncG type="table" tableValues="0 1" />
+            <feFuncB type="table" tableValues="0 1" />
+            <feFuncA type="table" tableValues="1 1" />
+          </feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in" />
+        </filter>
+      </defs></svg
+    ><svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 0 0"
+      width="0"
+      height="0"
+      focusable="false"
+      role="none"
+      style="
+        visibility: hidden;
+        position: absolute;
+        left: -9999px;
+        overflow: hidden;
+      "
+    >
+      <defs>
+        <filter id="wp-duotone-purple-yellow">
+          <feColorMatrix
+            color-interpolation-filters="sRGB"
+            type="matrix"
+            values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
+          />
+          <feComponentTransfer color-interpolation-filters="sRGB">
+            <feFuncR type="table" tableValues="0.549019607843 0.988235294118" />
+            <feFuncG type="table" tableValues="0 1" />
+            <feFuncB type="table" tableValues="0.717647058824 0.254901960784" />
+            <feFuncA type="table" tableValues="1 1" />
+          </feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in" />
+        </filter>
+      </defs>
     </svg>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-blue-red">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0 1" />
-                    <feFuncG type="table" tableValues="0 0.278431372549" />
-                    <feFuncB type="table" tableValues="0.592156862745 0.278431372549" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-midnight">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0 0" />
-                    <feFuncG type="table" tableValues="0 0.647058823529" />
-                    <feFuncB type="table" tableValues="0 1" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 0 0"
+      width="0"
+      height="0"
+      focusable="false"
+      role="none"
+      style="
+        visibility: hidden;
+        position: absolute;
+        left: -9999px;
+        overflow: hidden;
+      "
+    >
+      <defs>
+        <filter id="wp-duotone-blue-red">
+          <feColorMatrix
+            color-interpolation-filters="sRGB"
+            type="matrix"
+            values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
+          />
+          <feComponentTransfer color-interpolation-filters="sRGB">
+            <feFuncR type="table" tableValues="0 1" />
+            <feFuncG type="table" tableValues="0 0.278431372549" />
+            <feFuncB type="table" tableValues="0.592156862745 0.278431372549" />
+            <feFuncA type="table" tableValues="1 1" />
+          </feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in" />
+        </filter>
+      </defs></svg
+    ><svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 0 0"
+      width="0"
+      height="0"
+      focusable="false"
+      role="none"
+      style="
+        visibility: hidden;
+        position: absolute;
+        left: -9999px;
+        overflow: hidden;
+      "
+    >
+      <defs>
+        <filter id="wp-duotone-midnight">
+          <feColorMatrix
+            color-interpolation-filters="sRGB"
+            type="matrix"
+            values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
+          />
+          <feComponentTransfer color-interpolation-filters="sRGB">
+            <feFuncR type="table" tableValues="0 0" />
+            <feFuncG type="table" tableValues="0 0.647058823529" />
+            <feFuncB type="table" tableValues="0 1" />
+            <feFuncA type="table" tableValues="1 1" />
+          </feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in" />
+        </filter>
+      </defs>
     </svg>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-magenta-yellow">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0.780392156863 1" />
-                    <feFuncG type="table" tableValues="0 0.949019607843" />
-                    <feFuncB type="table" tableValues="0.352941176471 0.470588235294" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-purple-green">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0.650980392157 0.403921568627" />
-                    <feFuncG type="table" tableValues="0 1" />
-                    <feFuncB type="table" tableValues="0.447058823529 0.4" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 0 0"
+      width="0"
+      height="0"
+      focusable="false"
+      role="none"
+      style="
+        visibility: hidden;
+        position: absolute;
+        left: -9999px;
+        overflow: hidden;
+      "
+    >
+      <defs>
+        <filter id="wp-duotone-magenta-yellow">
+          <feColorMatrix
+            color-interpolation-filters="sRGB"
+            type="matrix"
+            values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
+          />
+          <feComponentTransfer color-interpolation-filters="sRGB">
+            <feFuncR type="table" tableValues="0.780392156863 1" />
+            <feFuncG type="table" tableValues="0 0.949019607843" />
+            <feFuncB type="table" tableValues="0.352941176471 0.470588235294" />
+            <feFuncA type="table" tableValues="1 1" />
+          </feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in" />
+        </filter>
+      </defs></svg
+    ><svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 0 0"
+      width="0"
+      height="0"
+      focusable="false"
+      role="none"
+      style="
+        visibility: hidden;
+        position: absolute;
+        left: -9999px;
+        overflow: hidden;
+      "
+    >
+      <defs>
+        <filter id="wp-duotone-purple-green">
+          <feColorMatrix
+            color-interpolation-filters="sRGB"
+            type="matrix"
+            values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
+          />
+          <feComponentTransfer color-interpolation-filters="sRGB">
+            <feFuncR type="table" tableValues="0.650980392157 0.403921568627" />
+            <feFuncG type="table" tableValues="0 1" />
+            <feFuncB type="table" tableValues="0.447058823529 0.4" />
+            <feFuncA type="table" tableValues="1 1" />
+          </feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in" />
+        </filter>
+      </defs>
     </svg>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-blue-orange">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0.0980392156863 1" />
-                    <feFuncG type="table" tableValues="0 0.662745098039" />
-                    <feFuncB type="table" tableValues="0.847058823529 0.419607843137" />
-                    <feFuncA type="table" tableValues="1 1" />
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in" />
-            </filter>
-        </defs>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 0 0"
+      width="0"
+      height="0"
+      focusable="false"
+      role="none"
+      style="
+        visibility: hidden;
+        position: absolute;
+        left: -9999px;
+        overflow: hidden;
+      "
+    >
+      <defs>
+        <filter id="wp-duotone-blue-orange">
+          <feColorMatrix
+            color-interpolation-filters="sRGB"
+            type="matrix"
+            values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
+          />
+          <feComponentTransfer color-interpolation-filters="sRGB">
+            <feFuncR type="table" tableValues="0.0980392156863 1" />
+            <feFuncG type="table" tableValues="0 0.662745098039" />
+            <feFuncB type="table" tableValues="0.847058823529 0.419607843137" />
+            <feFuncA type="table" tableValues="1 1" />
+          </feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in" />
+        </filter>
+      </defs>
     </svg>
-    <main id="main-scrollbar" data-wavo-scrollbar='{"time":1000,"step":100,"delta":50,"max":3}'>
-        <div id="nt-preloader" class="preloader">
-            <div class="loader09"></div>
-        </div>
+    <main
+      id="main-scrollbar"
+      data-wavo-scrollbar='{"time":1000,"step":100,"delta":50,"max":3}'
+    >
+      <div id="nt-preloader" class="preloader">
+        <div class="loader09"></div>
+      </div>
 
+      <div id="navi" class="topnav">
+        <div class="container-fluid">
+          <div class="logo">
+            <a
+              href="https://unitedcollab.com"
+              id="nt-logo"
+              class="header_logo logo-type-img has-mobile-logo has-sticky-logo"
+            >
+              <img
+                class="main-logo"
+                src="assets/img/UC_logo_white.svg"
+                alt="United Collab"
+              />
+              <img
+                class="sticky-logo"
+                src="assets/img/UC_mark_white.svg"
+                alt="United Collab"
+              />
+              <img
+                class="mobile-logo"
+                src="assets/img/UC_mark_white.svg"
+                alt="United Collab"
+              />
+            </a>
+          </div>
 
-        <div id="navi" class="topnav ">
-            <div class="container-fluid">
-
-                <div class="logo">
-
-                    <a href="#" id="nt-logo" class="header_logo logo-type-img has-mobile-logo has-sticky-logo">
-
-
-                        <img class="main-logo" src="assets/img/UC_logo_white.svg" alt="United Collab" />
-                        <img class="sticky-logo" src="assets/img/UC_mark_white.svg" alt="United Collab" />
-                        <img class="mobile-logo" src="assets/img/UC_mark_white.svg" alt="United Collab" />
-
-                    </a>
-                </div>
-
-
-                <div class="hamburger hamburger--slider">
-                    <div class="hamburger-box">
-                        <span class="hamburger-inner"></span>
-                    </div>
-                </div>
-
-
+          <div class="hamburger hamburger--slider">
+            <div class="hamburger-box">
+              <span class="hamburger-inner"></span>
             </div>
+          </div>
         </div>
+      </div>
 
-        <div class="hamenu" id="hamenu">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-9 col-md-8">
-                        <div class="menu-links">
-                            <ul class="main-menu">
-                                <li id="menu-item-4859"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8542 current_page_item is--active menu-item-4859">
-                                    <div class="o-hidden"><a href="index.html" class="link"><span class="nm"></span>Home </a>
-                                    </div>
-                                </li>
-                                <li id="menu-item-4866"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4866">
-                                    <div class="o-hidden"><a href="capabilities.html" class="link"><span class="nm"></span>Capabilities
-                                        </a></div>
-                                </li>
-                                <li id="menu-item-4865"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4865">
-                                    <div class="o-hidden"><a href="our-work.html" class="link"><span class="nm"></span>Our Work </a>
-                                    </div>
-                                </li>
-                                <li id="menu-item-4862"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4862">
-                                    <div class="o-hidden"><a href="contact.html" class="link"><span class="nm"></span>Contact </a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+      <div class="hamenu" id="hamenu">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9 col-md-8">
+              <div class="menu-links">
+                <ul class="main-menu">
+                  <li
+                    id="menu-item-4859"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8542 current_page_item is--active menu-item-4859"
+                  >
+                    <div class="o-hidden">
+                      <a href="index.html" class="link"
+                        ><span class="nm"></span>Home
+                      </a>
                     </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="cont-info">
-                            <div class="item">
-                                <h6><span
-                                        style="font-size: 12px; font-family: Tahoma, Arial, sans-serif; font-weight: 400; color: #999;">Address:</span>
-                                </h6>
-                                1240 Johnson Ferry Place Suite 222 Marietta, GA 30068
-
-                            </div>
-                            <div class="item">
-                                <h6><span
-                                        style="font-size: 12px; font-family: Tahoma, Arial, sans-serif; font-weight: 400; color: #999;">General
-                                        Inquiries:</span></h6>
-                                hello@unitedcollab.com
-
-                            </div>
-                        </div>
+                  </li>
+                  <li
+                    id="menu-item-4866"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4866"
+                  >
+                    <div class="o-hidden">
+                      <a href="capabilities.html" class="link"
+                        ><span class="nm"></span>Capabilities
+                      </a>
                     </div>
-
-                </div>
+                  </li>
+                  <li
+                    id="menu-item-4865"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4865"
+                  >
+                    <div class="o-hidden">
+                      <a href="our-work.html" class="link"
+                        ><span class="nm"></span>Our Work
+                      </a>
+                    </div>
+                  </li>
+                  <li
+                    id="menu-item-4862"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4862"
+                  >
+                    <div class="o-hidden">
+                      <a href="contact.html" class="link"
+                        ><span class="nm"></span>Contact
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </div>
-        <div class="progress-wrap">
-            <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
-            </svg>
-        </div>
-        <div data-elementor-type="wp-page" data-elementor-id="4841" class="elementor elementor-4841"
-            data-elementor-settings="[]">
-            <div class="elementor-inner">
-                <div class="elementor-section-wrap">
-                    <div data-vegas-settings="{&quot;slides&quot;:[{&quot;src&quot;:&quot;assets/img/WOT3552-scaled.jpg&quot;}],&quot;animation&quot;:[&quot;kenburns&quot;],&quot;transition&quot;:[&quot;fade&quot;,&quot;fade2&quot;,&quot;blur&quot;,&quot;flash&quot;],&quot;delay&quot;:4000,&quot;duration&quot;:1000,&quot;timer&quot;:&quot;&quot;,&quot;shuffle&quot;:&quot;yes&quot;,&quot;overlay&quot;:&quot;07&quot;}"
-                        data-vegas-id="f5f406"
-                        data-wavo-parallax="{&quot;type&quot;:&quot;scroll&quot;,&quot;speed&quot;:&quot;1.5&quot;,&quot;imgsize&quot;:&quot;cover&quot;,&quot;imgsrc&quot;:&quot;&quot;,&quot;mobile&quot;:&quot;&quot;}"
-                        class="elementor-section elementor-top-section elementor-element elementor-element-f5f406 elementor-section-height-min-height elementor-section-content-middle wavo-parallax jarallax parallax-yes elementor-section-full_width elementor-section-stretched wavo-vegas-overlay vegas-overlay-07 elementor-section-height-default elementor-section-items-middle"
-                        data-id="f5f406" data-element_type="section"
-                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-row">
-                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7e8fedb8"
-                                    data-id="7e8fedb8" data-element_type="column">
-                                    <div class="elementor-column-wrap elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div data-split-settings="{&quot;type&quot;:&quot;chars&quot;,&quot;animation&quot;:&quot;fadeIn2&quot;}"
-                                                class="elementor-element elementor-element-386f7829 wavo-headig-split heading-has-split-yes wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
-                                                data-id="386f7829" data-element_type="widget"
-                                                data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <p class="elementor-heading-title elementor-size-default">
-                                                        collaboration starts here
 
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-6fb9ef81 wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
-                                                data-id="6fb9ef81" data-element_type="widget"
-                                                data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h1 class="elementor-heading-title elementor-size-default">Let's
-                                                        Tell Your Story</h1>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-681e1f2c elementor-widget elementor-widget-wavo-button2"
-                                                data-id="681e1f2c" data-element_type="widget"
-                                                data-widget_type="wavo-button2.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="wavo-button">
-                                                        <a href="#about">
-                                                            <div class="btn-arrow">
-                                                                <span></span><span></span><span></span></div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-290434c"
-                                    data-id="290434c" data-element_type="column">
-                                    <div class="elementor-column-wrap">
-                                        <div class="elementor-widget-wrap">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="elementor-section elementor-top-section elementor-element elementor-element-3578c0ab nt-section section-padding elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                        data-id="3578c0ab" data-element_type="section" id="about"
-                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-row">
-                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-37f6d1ce"
-                                    data-id="37f6d1ce" data-element_type="column">
-                                    <div class="elementor-column-wrap elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <section
-                                                class="elementor-section elementor-inner-section elementor-element elementor-element-7b743eb3 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                                data-id="7b743eb3" data-element_type="section">
-                                                <div class="elementor-container elementor-column-gap-no">
-                                                    <div class="elementor-row">
-                                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-516854cd"
-                                                            data-id="516854cd" data-element_type="column">
-                                                            <div
-                                                                class="elementor-column-wrap elementor-element-populated">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div class="elementor-element elementor-element-d6fbda3 wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
-                                                                        data-id="d6fbda3" data-element_type="widget"
-                                                                        data-widget_type="heading.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <h4
-                                                                                class="elementor-heading-title elementor-size-default">
-                                                                                United by Design</h4>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="elementor-element elementor-element-2997862c wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
-                                                                        data-id="2997862c" data-element_type="widget"
-                                                                        data-widget_type="heading.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <p
-                                                                                class="elementor-heading-title elementor-size-default">
-                                                                                We produce award-winning work across
-                                                                                print, digital, and emerging
-                                                                                technologies. We are strategists,
-                                                                                creatives, writers, and developers. We
-                                                                                specialize in concept
-                                                                                development, innovation, and
-                                                                                implementation for cross-collaborative
-                                                                                teams.</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-933c4b6"
-                                                            data-id="933c4b6" data-element_type="column">
-                                                            <div
-                                                                class="elementor-column-wrap elementor-element-populated">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div class="elementor-element elementor-element-138e62f elementor-widget elementor-widget-wavo-button"
-                                                                        data-id="138e62f" data-element_type="widget"
-                                                                        data-widget_type="wavo-button.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <div class="wavo-button has-icon"><a
-                                                                                    data-scroll-to
-                                                                                    class="wavo-btn btn-curve btn-lit btn-icon-right"
-                                                                                    href="#"><span
-                                                                                        class="button_text">Case studies
-                                                                                        <i aria-hidden="true"
-                                                                                            class="fas fa-arrow-right"></i></span></a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </section>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="wavo-particles elementor-section elementor-top-section elementor-element elementor-element-7a222169 elementor-section-content-middle nt-section section-padding elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                        data-particles-settings="{&quot;type&quot;:&quot;default&quot;,&quot;color&quot;:&quot;#fff&quot;,&quot;shape&quot;:&quot;circle&quot;,&quot;number&quot;:60,&quot;opacity&quot;:0.4,&quot;size&quot;:6}"
-                        data-particles-id="7a222169" data-id="7a222169" data-element_type="section">
-                        <div class="elementor-background-overlay"></div>
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-row">
-                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-734d80e"
-                                    data-id="734d80e" data-element_type="column">
-                                    <div class="elementor-column-wrap elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div data-image-parallax-settings="{&quot;orientation&quot;:&quot;down&quot;,&quot;overflow&quot;: false,&quot;scale&quot;:1.2,&quot;delay&quot;:0.7,&quot;maxtrans&quot;:10}"
-                                                data-image-reveal-settings="{&quot;orientation&quot;:&quot;left&quot;,&quot;delay&quot;:16,&quot;offset&quot;:&quot;&quot;,&quot;once&quot;:&quot;false&quot;}"
-                                                class="elementor-element elementor-element-7ed81277 wavo-image-parallax image-has-parallax-yes wavo-image-reveal image-has-reveal-yes elementor-widget elementor-widget-image"
-                                                data-id="7ed81277" data-element_type="widget"
-                                                data-widget_type="image.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-image">
-                                                        <img decoding="async"
-                                                            src="assets/img/UC_Company_02-p2zboeupxfpm0ixmvd2psbpurkv056a0glqw6byq4g.png"
-                                                            title="UC_Company_02" alt="UC_Company_02" /> </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-59bd5cae"
-                                    data-id="59bd5cae" data-element_type="column"
-                                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                    <div class="elementor-column-wrap elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div data-split-settings="{&quot;type&quot;:&quot;chars&quot;,&quot;animation&quot;:&quot;fadeInUp2&quot;}"
-                                                class="elementor-element elementor-element-5dd3b0f2 wavo-headig-split heading-has-split-yes wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
-                                                data-id="5dd3b0f2" data-element_type="widget"
-                                                data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h4 class="elementor-heading-title elementor-size-default">Our
-                                                        Capabilities</h4>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-67d17516 wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
-                                                data-id="67d17516" data-element_type="widget"
-                                                data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <p class="elementor-heading-title elementor-size-default">Our team
-                                                        has decades of experience working with complex stakeholder
-                                                        organizations. We collaborate with clients to reach a shared
-                                                        goal through research and discovery insights. From there,
-                                                        our team goes to work identifying opportunities and developing
-                                                        the trusted solutions that our clients trust.</p>
-                                                </div>
-                                            </div>
-                                            <section
-                                                class="elementor-section elementor-inner-section elementor-element elementor-element-78188c1f elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible"
-                                                data-id="78188c1f" data-element_type="section"
-                                                data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
-                                                <div class="elementor-container elementor-column-gap-no">
-                                                    <div class="elementor-row">
-                                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2f553dbf"
-                                                            data-id="2f553dbf" data-element_type="column">
-                                                            <div
-                                                                class="elementor-column-wrap elementor-element-populated">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div class="elementor-element elementor-element-4872eedc elementor-widget__width-initial wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
-                                                                        data-id="4872eedc" data-element_type="widget"
-                                                                        data-widget_type="heading.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <span
-                                                                                class="elementor-heading-title elementor-size-default">1</span>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-502cb10f"
-                                                            data-id="502cb10f" data-element_type="column">
-                                                            <div
-                                                                class="elementor-column-wrap elementor-element-populated">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div class="elementor-element elementor-element-3a3f0ada wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
-                                                                        data-id="3a3f0ada" data-element_type="widget"
-                                                                        data-widget_type="heading.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <h5
-                                                                                class="elementor-heading-title elementor-size-default">
-                                                                                UC XR</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="elementor-element elementor-element-2e0ce02 elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                                        data-id="2e0ce02" data-element_type="widget"
-                                                                        data-widget_type="icon-list.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <ul class="elementor-icon-list-items">
-                                                                                <li class="elementor-icon-list-item">
-                                                                                    <span
-                                                                                        class="elementor-icon-list-icon">
-                                                                                        <i aria-hidden="true"
-                                                                                            class="fas fa-check"></i>
-                                                                                    </span>
-                                                                                    <span
-                                                                                        class="elementor-icon-list-text">VR
-                                                                                        Training/Demos</span>
-                                                                                </li>
-                                                                                <li class="elementor-icon-list-item">
-                                                                                    <span
-                                                                                        class="elementor-icon-list-icon">
-                                                                                        <i aria-hidden="true"
-                                                                                            class="fas fa-check"></i>
-                                                                                    </span>
-                                                                                    <span
-                                                                                        class="elementor-icon-list-text">AR
-                                                                                        Applications</span>
-                                                                                </li>
-                                                                                <li class="elementor-icon-list-item">
-                                                                                    <span
-                                                                                        class="elementor-icon-list-icon">
-                                                                                        <i aria-hidden="true"
-                                                                                            class="fas fa-check"></i>
-                                                                                    </span>
-                                                                                    <span
-                                                                                        class="elementor-icon-list-text">360
-                                                                                        videography</span>
-                                                                                </li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </section>
-                                            <section
-                                                class="elementor-section elementor-inner-section elementor-element elementor-element-3d88f756 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible"
-                                                data-id="3d88f756" data-element_type="section"
-                                                data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
-                                                <div class="elementor-container elementor-column-gap-no">
-                                                    <div class="elementor-row">
-                                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-24024590"
-                                                            data-id="24024590" data-element_type="column">
-                                                            <div
-                                                                class="elementor-column-wrap elementor-element-populated">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div class="elementor-element elementor-element-b35ee59 elementor-widget__width-initial wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
-                                                                        data-id="b35ee59" data-element_type="widget"
-                                                                        data-widget_type="heading.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <span
-                                                                                class="elementor-heading-title elementor-size-default">2</span>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-115c8502"
-                                                            data-id="115c8502" data-element_type="column">
-                                                            <div
-                                                                class="elementor-column-wrap elementor-element-populated">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div class="elementor-element elementor-element-6570f794 wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
-                                                                        data-id="6570f794" data-element_type="widget"
-                                                                        data-widget_type="heading.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <h5
-                                                                                class="elementor-heading-title elementor-size-default">
-                                                                                Product & Service Innovation</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="elementor-element elementor-element-6a69c5a elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                                        data-id="6a69c5a" data-element_type="widget"
-                                                                        data-widget_type="icon-list.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <ul class="elementor-icon-list-items">
-                                                                                <li class="elementor-icon-list-item">
-                                                                                    <span
-                                                                                        class="elementor-icon-list-icon">
-                                                                                        <i aria-hidden="true"
-                                                                                            class="fas fa-check"></i>
-                                                                                    </span>
-                                                                                    <span
-                                                                                        class="elementor-icon-list-text">Product
-                                                                                        Development</span>
-                                                                                </li>
-                                                                                <li class="elementor-icon-list-item">
-                                                                                    <span
-                                                                                        class="elementor-icon-list-icon">
-                                                                                        <i aria-hidden="true"
-                                                                                            class="fas fa-check"></i>
-                                                                                    </span>
-                                                                                    <span
-                                                                                        class="elementor-icon-list-text">Research
-                                                                                        & Reporting</span>
-                                                                                </li>
-                                                                                <li class="elementor-icon-list-item">
-                                                                                    <span
-                                                                                        class="elementor-icon-list-icon">
-                                                                                        <i aria-hidden="true"
-                                                                                            class="fas fa-check"></i>
-                                                                                    </span>
-                                                                                    <span
-                                                                                        class="elementor-icon-list-text">Training
-                                                                                        & Service Design</span>
-                                                                                </li>
-                                                                                <li class="elementor-icon-list-item">
-                                                                                    <span
-                                                                                        class="elementor-icon-list-icon">
-                                                                                        <i aria-hidden="true"
-                                                                                            class="fas fa-check"></i>
-                                                                                    </span>
-                                                                                    <span
-                                                                                        class="elementor-icon-list-text">Web
-                                                                                        & Mobile Applications</span>
-                                                                                </li>
-                                                                                <li class="elementor-icon-list-item">
-                                                                                    <span
-                                                                                        class="elementor-icon-list-icon">
-                                                                                        <i aria-hidden="true"
-                                                                                            class="fas fa-check"></i>
-                                                                                    </span>
-                                                                                    <span
-                                                                                        class="elementor-icon-list-text">AR/VR
-                                                                                        & Video Production</span>
-                                                                                </li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </section>
-                                            <section
-                                                class="elementor-section elementor-inner-section elementor-element elementor-element-72b64b12 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible"
-                                                data-id="72b64b12" data-element_type="section"
-                                                data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
-                                                <div class="elementor-container elementor-column-gap-no">
-                                                    <div class="elementor-row">
-                                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-64609798"
-                                                            data-id="64609798" data-element_type="column">
-                                                            <div
-                                                                class="elementor-column-wrap elementor-element-populated">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div class="elementor-element elementor-element-2e0d35d0 elementor-widget__width-initial wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
-                                                                        data-id="2e0d35d0" data-element_type="widget"
-                                                                        data-widget_type="heading.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <span
-                                                                                class="elementor-heading-title elementor-size-default">3</span>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-33dd843a"
-                                                            data-id="33dd843a" data-element_type="column">
-                                                            <div
-                                                                class="elementor-column-wrap elementor-element-populated">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div class="elementor-element elementor-element-331d424e wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
-                                                                        data-id="331d424e" data-element_type="widget"
-                                                                        data-widget_type="heading.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <h5
-                                                                                class="elementor-heading-title elementor-size-default">
-                                                                                Branding & Communications</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="elementor-element elementor-element-03e2adc elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                                        data-id="03e2adc" data-element_type="widget"
-                                                                        data-widget_type="icon-list.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <ul class="elementor-icon-list-items">
-                                                                                <li class="elementor-icon-list-item">
-                                                                                    <span
-                                                                                        class="elementor-icon-list-icon">
-                                                                                        <i aria-hidden="true"
-                                                                                            class="fas fa-check"></i>
-                                                                                    </span>
-                                                                                    <span
-                                                                                        class="elementor-icon-list-text">UX/UI</span>
-                                                                                </li>
-                                                                                <li class="elementor-icon-list-item">
-                                                                                    <span
-                                                                                        class="elementor-icon-list-icon">
-                                                                                        <i aria-hidden="true"
-                                                                                            class="fas fa-check"></i>
-                                                                                    </span>
-                                                                                    <span
-                                                                                        class="elementor-icon-list-text">Website
-                                                                                        Design & Optimization</span>
-                                                                                </li>
-                                                                                <li class="elementor-icon-list-item">
-                                                                                    <span
-                                                                                        class="elementor-icon-list-icon">
-                                                                                        <i aria-hidden="true"
-                                                                                            class="fas fa-check"></i>
-                                                                                    </span>
-                                                                                    <span
-                                                                                        class="elementor-icon-list-text">Digital
-                                                                                        & Social Branding</span>
-                                                                                </li>
-                                                                                <li class="elementor-icon-list-item">
-                                                                                    <span
-                                                                                        class="elementor-icon-list-icon">
-                                                                                        <i aria-hidden="true"
-                                                                                            class="fas fa-check"></i>
-                                                                                    </span>
-                                                                                    <span
-                                                                                        class="elementor-icon-list-text">Visual
-                                                                                        Design Systems</span>
-                                                                                </li>
-                                                                                <li class="elementor-icon-list-item">
-                                                                                    <span
-                                                                                        class="elementor-icon-list-icon">
-                                                                                        <i aria-hidden="true"
-                                                                                            class="fas fa-check"></i>
-                                                                                    </span>
-                                                                                    <span
-                                                                                        class="elementor-icon-list-text">Content
-                                                                                        Strategy</span>
-                                                                                </li>
-                                                                                <li class="elementor-icon-list-item">
-                                                                                    <span
-                                                                                        class="elementor-icon-list-icon">
-                                                                                        <i aria-hidden="true"
-                                                                                            class="fas fa-check"></i>
-                                                                                    </span>
-                                                                                    <span
-                                                                                        class="elementor-icon-list-text">Change
-                                                                                        Management</span>
-                                                                                </li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </section>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div data-wavo-parallax="{&quot;type&quot;:&quot;scroll&quot;,&quot;speed&quot;:&quot;0.4&quot;,&quot;imgsize&quot;:&quot;cover&quot;,&quot;imgsrc&quot;:&quot;assets/img/office2sm.jpg&quot;,&quot;mobile&quot;:&quot;yes&quot;}"
-                        class="elementor-section elementor-top-section elementor-element elementor-element-69aaae16 elementor-section-stretched elementor-section-content-middle nt-section section-padding wavo-parallax jarallax parallax-yes wavo-mobile-parallax-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                        data-id="69aaae16" data-element_type="section"
-                        data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-background-overlay"></div>
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-row">
-                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-773f7dd2"
-                                    data-id="773f7dd2" data-element_type="column">
-                                    <div class="elementor-column-wrap elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div data-split-settings="{&quot;type&quot;:&quot;chars&quot;,&quot;animation&quot;:&quot;fadeInUp2&quot;}"
-                                                class="elementor-element elementor-element-29dbb10c wavo-headig-split heading-has-split-yes wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
-                                                data-id="29dbb10c" data-element_type="widget"
-                                                data-settings="{&quot;_animation_delay&quot;:600,&quot;_animation&quot;:&quot;none&quot;}"
-                                                data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h6 class="elementor-heading-title elementor-size-default">let's
-                                                        collab</h6>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-4b14e11c wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
-                                                data-id="4b14e11c" data-element_type="widget"
-                                                data-settings="{&quot;_animation_delay&quot;:800,&quot;_animation&quot;:&quot;none&quot;}"
-                                                data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">Let's
-                                                        build something great together.</h2>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-74fd7fd8"
-                                    data-id="74fd7fd8" data-element_type="column">
-                                    <div class="elementor-column-wrap elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div class="elementor-element elementor-element-4598bb00 elementor-invisible elementor-widget elementor-widget-wavo-button"
-                                                data-id="4598bb00" data-element_type="widget"
-                                                data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}"
-                                                data-widget_type="wavo-button.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="wavo-button has-icon"><a data-scroll-to
-                                                            class="wavo-btn btn-curve btn-lit btn-icon-right"
-                                                            href="#"><span class="button_text">Get in touch <i
-                                                                    aria-hidden="true"
-                                                                    class="fas fa-arrow-right"></i></span></a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-lg-3 col-md-4">
+              <div class="cont-info">
+                <div class="item">
+                  <h6>
+                    <span
+                      style="
+                        font-size: 12px;
+                        font-family: Tahoma, Arial, sans-serif;
+                        font-weight: 400;
+                        color: #999;
+                      "
+                      >Address:</span
+                    >
+                  </h6>
+                  1240 Johnson Ferry Place Suite 222 Marietta, GA 30068
                 </div>
-            </div>
-        </div>
-        <footer id="nt-footer" class="footer-sm">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-6 col-md-4">
-                        <div class="left">
-
-                            <p>All Rights Reserved.</p>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-8">
-                        <div class="right">
-
-
-                            <p>&copy; 2021 United Collaborative</p>
-                        </div>
-                    </div>
-
+                <div class="item">
+                  <h6>
+                    <span
+                      style="
+                        font-size: 12px;
+                        font-family: Tahoma, Arial, sans-serif;
+                        font-weight: 400;
+                        color: #999;
+                      "
+                      >General Inquiries:</span
+                    >
+                  </h6>
+                  hello@unitedcollab.com
                 </div>
+              </div>
             </div>
-        </footer>
+          </div>
+        </div>
+      </div>
+      <div class="progress-wrap">
+        <svg
+          class="progress-circle svg-content"
+          width="100%"
+          height="100%"
+          viewBox="-1 -1 102 102"
+        >
+          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+        </svg>
+      </div>
+      <div
+        data-elementor-type="wp-page"
+        data-elementor-id="4841"
+        class="elementor elementor-4841"
+        data-elementor-settings="[]"
+      >
+        <div class="elementor-inner">
+          <div class="elementor-section-wrap">
+            <div
+              data-vegas-settings='{"slides":[{"src":"assets/img/WOT3552-scaled.jpg"}],"animation":["kenburns"],"transition":["fade","fade2","blur","flash"],"delay":4000,"duration":1000,"timer":"","shuffle":"yes","overlay":"07"}'
+              data-vegas-id="f5f406"
+              data-wavo-parallax='{"type":"scroll","speed":"1.5","imgsize":"cover","imgsrc":"","mobile":""}'
+              class="elementor-section elementor-top-section elementor-element elementor-element-f5f406 elementor-section-height-min-height elementor-section-content-middle wavo-parallax jarallax parallax-yes elementor-section-full_width elementor-section-stretched wavo-vegas-overlay vegas-overlay-07 elementor-section-height-default elementor-section-items-middle"
+              data-id="f5f406"
+              data-element_type="section"
+              data-settings='{"background_background":"classic","stretch_section":"section-stretched"}'
+            >
+              <div class="elementor-container elementor-column-gap-no">
+                <div class="elementor-row">
+                  <div
+                    class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7e8fedb8"
+                    data-id="7e8fedb8"
+                    data-element_type="column"
+                  >
+                    <div
+                      class="elementor-column-wrap elementor-element-populated"
+                    >
+                      <div class="elementor-widget-wrap">
+                        <div
+                          data-split-settings='{"type":"chars","animation":"fadeIn2"}'
+                          class="elementor-element elementor-element-386f7829 wavo-headig-split heading-has-split-yes wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
+                          data-id="386f7829"
+                          data-element_type="widget"
+                          data-widget_type="heading.default"
+                        >
+                          <div class="elementor-widget-container">
+                            <p
+                              class="elementor-heading-title elementor-size-default"
+                            >
+                              collaboration starts here
+                            </p>
+                          </div>
+                        </div>
+                        <div
+                          class="elementor-element elementor-element-6fb9ef81 wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
+                          data-id="6fb9ef81"
+                          data-element_type="widget"
+                          data-widget_type="heading.default"
+                        >
+                          <div class="elementor-widget-container">
+                            <h1
+                              class="elementor-heading-title elementor-size-default"
+                            >
+                              Let's Tell Your Story
+                            </h1>
+                          </div>
+                        </div>
+                        <div
+                          class="elementor-element elementor-element-681e1f2c elementor-widget elementor-widget-wavo-button2"
+                          data-id="681e1f2c"
+                          data-element_type="widget"
+                          data-widget_type="wavo-button2.default"
+                        >
+                          <div class="elementor-widget-container">
+                            <div class="wavo-button">
+                              <a href="#about">
+                                <div class="btn-arrow">
+                                  <span></span><span></span><span></span>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-290434c"
+                    data-id="290434c"
+                    data-element_type="column"
+                  >
+                    <div class="elementor-column-wrap">
+                      <div class="elementor-widget-wrap"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="elementor-section elementor-top-section elementor-element elementor-element-3578c0ab nt-section section-padding elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+              data-id="3578c0ab"
+              data-element_type="section"
+              id="about"
+              data-settings='{"background_background":"classic"}'
+            >
+              <div class="elementor-container elementor-column-gap-no">
+                <div class="elementor-row">
+                  <div
+                    class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-37f6d1ce"
+                    data-id="37f6d1ce"
+                    data-element_type="column"
+                  >
+                    <div
+                      class="elementor-column-wrap elementor-element-populated"
+                    >
+                      <div class="elementor-widget-wrap">
+                        <section
+                          class="elementor-section elementor-inner-section elementor-element elementor-element-7b743eb3 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                          data-id="7b743eb3"
+                          data-element_type="section"
+                        >
+                          <div
+                            class="elementor-container elementor-column-gap-no"
+                          >
+                            <div class="elementor-row">
+                              <div
+                                class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-516854cd"
+                                data-id="516854cd"
+                                data-element_type="column"
+                              >
+                                <div
+                                  class="elementor-column-wrap elementor-element-populated"
+                                >
+                                  <div class="elementor-widget-wrap">
+                                    <div
+                                      class="elementor-element elementor-element-d6fbda3 wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
+                                      data-id="d6fbda3"
+                                      data-element_type="widget"
+                                      data-widget_type="heading.default"
+                                    >
+                                      <div class="elementor-widget-container">
+                                        <h4
+                                          class="elementor-heading-title elementor-size-default"
+                                        >
+                                          United by Design
+                                        </h4>
+                                      </div>
+                                    </div>
+                                    <div
+                                      class="elementor-element elementor-element-2997862c wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
+                                      data-id="2997862c"
+                                      data-element_type="widget"
+                                      data-widget_type="heading.default"
+                                    >
+                                      <div class="elementor-widget-container">
+                                        <p
+                                          class="elementor-heading-title elementor-size-default"
+                                        >
+                                          We produce award-winning work across
+                                          print, digital, and emerging
+                                          technologies. We are strategists,
+                                          creatives, writers, and developers. We
+                                          specialize in concept development,
+                                          innovation, and implementation for
+                                          cross-collaborative teams.
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-933c4b6"
+                                data-id="933c4b6"
+                                data-element_type="column"
+                              >
+                                <div
+                                  class="elementor-column-wrap elementor-element-populated"
+                                >
+                                  <div class="elementor-widget-wrap">
+                                    <div
+                                      class="elementor-element elementor-element-138e62f elementor-widget elementor-widget-wavo-button"
+                                      data-id="138e62f"
+                                      data-element_type="widget"
+                                      data-widget_type="wavo-button.default"
+                                    >
+                                      <div class="elementor-widget-container">
+                                        <div class="wavo-button has-icon">
+                                          <a
+                                            data-scroll-to
+                                            class="wavo-btn btn-curve btn-lit btn-icon-right"
+                                            href="#"
+                                            ><span class="button_text"
+                                              >Case studies
+                                              <i
+                                                aria-hidden="true"
+                                                class="fas fa-arrow-right"
+                                              ></i></span
+                                          ></a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="wavo-particles elementor-section elementor-top-section elementor-element elementor-element-7a222169 elementor-section-content-middle nt-section section-padding elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+              data-particles-settings='{"type":"default","color":"#fff","shape":"circle","number":60,"opacity":0.4,"size":6}'
+              data-particles-id="7a222169"
+              data-id="7a222169"
+              data-element_type="section"
+            >
+              <div class="elementor-background-overlay"></div>
+              <div class="elementor-container elementor-column-gap-no">
+                <div class="elementor-row">
+                  <div
+                    class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-734d80e"
+                    data-id="734d80e"
+                    data-element_type="column"
+                  >
+                    <div
+                      class="elementor-column-wrap elementor-element-populated"
+                    >
+                      <div class="elementor-widget-wrap">
+                        <div
+                          data-image-parallax-settings='{"orientation":"down","overflow": false,"scale":1.2,"delay":0.7,"maxtrans":10}'
+                          data-image-reveal-settings='{"orientation":"left","delay":16,"offset":"","once":"false"}'
+                          class="elementor-element elementor-element-7ed81277 wavo-image-parallax image-has-parallax-yes wavo-image-reveal image-has-reveal-yes elementor-widget elementor-widget-image"
+                          data-id="7ed81277"
+                          data-element_type="widget"
+                          data-widget_type="image.default"
+                        >
+                          <div class="elementor-widget-container">
+                            <div class="elementor-image">
+                              <img
+                                decoding="async"
+                                src="assets/img/UC_Company_02-p2zboeupxfpm0ixmvd2psbpurkv056a0glqw6byq4g.png"
+                                title="UC_Company_02"
+                                alt="UC_Company_02"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-59bd5cae"
+                    data-id="59bd5cae"
+                    data-element_type="column"
+                    data-settings='{"background_background":"classic"}'
+                  >
+                    <div
+                      class="elementor-column-wrap elementor-element-populated"
+                    >
+                      <div class="elementor-widget-wrap">
+                        <div
+                          data-split-settings='{"type":"chars","animation":"fadeInUp2"}'
+                          class="elementor-element elementor-element-5dd3b0f2 wavo-headig-split heading-has-split-yes wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
+                          data-id="5dd3b0f2"
+                          data-element_type="widget"
+                          data-widget_type="heading.default"
+                        >
+                          <div class="elementor-widget-container">
+                            <h4
+                              class="elementor-heading-title elementor-size-default"
+                            >
+                              Our Capabilities
+                            </h4>
+                          </div>
+                        </div>
+                        <div
+                          class="elementor-element elementor-element-67d17516 wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
+                          data-id="67d17516"
+                          data-element_type="widget"
+                          data-widget_type="heading.default"
+                        >
+                          <div class="elementor-widget-container">
+                            <p
+                              class="elementor-heading-title elementor-size-default"
+                            >
+                              Our team has decades of experience working with
+                              complex stakeholder organizations. We collaborate
+                              with clients to reach a shared goal through
+                              research and discovery insights. From there, our
+                              team goes to work identifying opportunities and
+                              developing the trusted solutions that our clients
+                              trust.
+                            </p>
+                          </div>
+                        </div>
+                        <section
+                          class="elementor-section elementor-inner-section elementor-element elementor-element-78188c1f elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible"
+                          data-id="78188c1f"
+                          data-element_type="section"
+                          data-settings='{"animation":"fadeInUp"}'
+                        >
+                          <div
+                            class="elementor-container elementor-column-gap-no"
+                          >
+                            <div class="elementor-row">
+                              <div
+                                class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2f553dbf"
+                                data-id="2f553dbf"
+                                data-element_type="column"
+                              >
+                                <div
+                                  class="elementor-column-wrap elementor-element-populated"
+                                >
+                                  <div class="elementor-widget-wrap">
+                                    <div
+                                      class="elementor-element elementor-element-4872eedc elementor-widget__width-initial wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
+                                      data-id="4872eedc"
+                                      data-element_type="widget"
+                                      data-widget_type="heading.default"
+                                    >
+                                      <div class="elementor-widget-container">
+                                        <span
+                                          class="elementor-heading-title elementor-size-default"
+                                          >1</span
+                                        >
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-502cb10f"
+                                data-id="502cb10f"
+                                data-element_type="column"
+                              >
+                                <div
+                                  class="elementor-column-wrap elementor-element-populated"
+                                >
+                                  <div class="elementor-widget-wrap">
+                                    <div
+                                      class="elementor-element elementor-element-3a3f0ada wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
+                                      data-id="3a3f0ada"
+                                      data-element_type="widget"
+                                      data-widget_type="heading.default"
+                                    >
+                                      <div class="elementor-widget-container">
+                                        <h5
+                                          class="elementor-heading-title elementor-size-default"
+                                        >
+                                          UC XR
+                                        </h5>
+                                      </div>
+                                    </div>
+                                    <div
+                                      class="elementor-element elementor-element-2e0ce02 elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                                      data-id="2e0ce02"
+                                      data-element_type="widget"
+                                      data-widget_type="icon-list.default"
+                                    >
+                                      <div class="elementor-widget-container">
+                                        <ul class="elementor-icon-list-items">
+                                          <li class="elementor-icon-list-item">
+                                            <span
+                                              class="elementor-icon-list-icon"
+                                            >
+                                              <i
+                                                aria-hidden="true"
+                                                class="fas fa-check"
+                                              ></i>
+                                            </span>
+                                            <span
+                                              class="elementor-icon-list-text"
+                                              >VR Training/Demos</span
+                                            >
+                                          </li>
+                                          <li class="elementor-icon-list-item">
+                                            <span
+                                              class="elementor-icon-list-icon"
+                                            >
+                                              <i
+                                                aria-hidden="true"
+                                                class="fas fa-check"
+                                              ></i>
+                                            </span>
+                                            <span
+                                              class="elementor-icon-list-text"
+                                              >AR Applications</span
+                                            >
+                                          </li>
+                                          <li class="elementor-icon-list-item">
+                                            <span
+                                              class="elementor-icon-list-icon"
+                                            >
+                                              <i
+                                                aria-hidden="true"
+                                                class="fas fa-check"
+                                              ></i>
+                                            </span>
+                                            <span
+                                              class="elementor-icon-list-text"
+                                              >360 videography</span
+                                            >
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                        <section
+                          class="elementor-section elementor-inner-section elementor-element elementor-element-3d88f756 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible"
+                          data-id="3d88f756"
+                          data-element_type="section"
+                          data-settings='{"animation":"fadeInUp"}'
+                        >
+                          <div
+                            class="elementor-container elementor-column-gap-no"
+                          >
+                            <div class="elementor-row">
+                              <div
+                                class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-24024590"
+                                data-id="24024590"
+                                data-element_type="column"
+                              >
+                                <div
+                                  class="elementor-column-wrap elementor-element-populated"
+                                >
+                                  <div class="elementor-widget-wrap">
+                                    <div
+                                      class="elementor-element elementor-element-b35ee59 elementor-widget__width-initial wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
+                                      data-id="b35ee59"
+                                      data-element_type="widget"
+                                      data-widget_type="heading.default"
+                                    >
+                                      <div class="elementor-widget-container">
+                                        <span
+                                          class="elementor-heading-title elementor-size-default"
+                                          >2</span
+                                        >
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-115c8502"
+                                data-id="115c8502"
+                                data-element_type="column"
+                              >
+                                <div
+                                  class="elementor-column-wrap elementor-element-populated"
+                                >
+                                  <div class="elementor-widget-wrap">
+                                    <div
+                                      class="elementor-element elementor-element-6570f794 wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
+                                      data-id="6570f794"
+                                      data-element_type="widget"
+                                      data-widget_type="heading.default"
+                                    >
+                                      <div class="elementor-widget-container">
+                                        <h5
+                                          class="elementor-heading-title elementor-size-default"
+                                        >
+                                          Product & Service Innovation
+                                        </h5>
+                                      </div>
+                                    </div>
+                                    <div
+                                      class="elementor-element elementor-element-6a69c5a elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                                      data-id="6a69c5a"
+                                      data-element_type="widget"
+                                      data-widget_type="icon-list.default"
+                                    >
+                                      <div class="elementor-widget-container">
+                                        <ul class="elementor-icon-list-items">
+                                          <li class="elementor-icon-list-item">
+                                            <span
+                                              class="elementor-icon-list-icon"
+                                            >
+                                              <i
+                                                aria-hidden="true"
+                                                class="fas fa-check"
+                                              ></i>
+                                            </span>
+                                            <span
+                                              class="elementor-icon-list-text"
+                                              >Product Development</span
+                                            >
+                                          </li>
+                                          <li class="elementor-icon-list-item">
+                                            <span
+                                              class="elementor-icon-list-icon"
+                                            >
+                                              <i
+                                                aria-hidden="true"
+                                                class="fas fa-check"
+                                              ></i>
+                                            </span>
+                                            <span
+                                              class="elementor-icon-list-text"
+                                              >Research & Reporting</span
+                                            >
+                                          </li>
+                                          <li class="elementor-icon-list-item">
+                                            <span
+                                              class="elementor-icon-list-icon"
+                                            >
+                                              <i
+                                                aria-hidden="true"
+                                                class="fas fa-check"
+                                              ></i>
+                                            </span>
+                                            <span
+                                              class="elementor-icon-list-text"
+                                              >Training & Service Design</span
+                                            >
+                                          </li>
+                                          <li class="elementor-icon-list-item">
+                                            <span
+                                              class="elementor-icon-list-icon"
+                                            >
+                                              <i
+                                                aria-hidden="true"
+                                                class="fas fa-check"
+                                              ></i>
+                                            </span>
+                                            <span
+                                              class="elementor-icon-list-text"
+                                              >Web & Mobile Applications</span
+                                            >
+                                          </li>
+                                          <li class="elementor-icon-list-item">
+                                            <span
+                                              class="elementor-icon-list-icon"
+                                            >
+                                              <i
+                                                aria-hidden="true"
+                                                class="fas fa-check"
+                                              ></i>
+                                            </span>
+                                            <span
+                                              class="elementor-icon-list-text"
+                                              >AR/VR & Video Production</span
+                                            >
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                        <section
+                          class="elementor-section elementor-inner-section elementor-element elementor-element-72b64b12 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible"
+                          data-id="72b64b12"
+                          data-element_type="section"
+                          data-settings='{"animation":"fadeInUp"}'
+                        >
+                          <div
+                            class="elementor-container elementor-column-gap-no"
+                          >
+                            <div class="elementor-row">
+                              <div
+                                class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-64609798"
+                                data-id="64609798"
+                                data-element_type="column"
+                              >
+                                <div
+                                  class="elementor-column-wrap elementor-element-populated"
+                                >
+                                  <div class="elementor-widget-wrap">
+                                    <div
+                                      class="elementor-element elementor-element-2e0d35d0 elementor-widget__width-initial wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
+                                      data-id="2e0d35d0"
+                                      data-element_type="widget"
+                                      data-widget_type="heading.default"
+                                    >
+                                      <div class="elementor-widget-container">
+                                        <span
+                                          class="elementor-heading-title elementor-size-default"
+                                          >3</span
+                                        >
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-33dd843a"
+                                data-id="33dd843a"
+                                data-element_type="column"
+                              >
+                                <div
+                                  class="elementor-column-wrap elementor-element-populated"
+                                >
+                                  <div class="elementor-widget-wrap">
+                                    <div
+                                      class="elementor-element elementor-element-331d424e wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
+                                      data-id="331d424e"
+                                      data-element_type="widget"
+                                      data-widget_type="heading.default"
+                                    >
+                                      <div class="elementor-widget-container">
+                                        <h5
+                                          class="elementor-heading-title elementor-size-default"
+                                        >
+                                          Branding & Communications
+                                        </h5>
+                                      </div>
+                                    </div>
+                                    <div
+                                      class="elementor-element elementor-element-03e2adc elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                                      data-id="03e2adc"
+                                      data-element_type="widget"
+                                      data-widget_type="icon-list.default"
+                                    >
+                                      <div class="elementor-widget-container">
+                                        <ul class="elementor-icon-list-items">
+                                          <li class="elementor-icon-list-item">
+                                            <span
+                                              class="elementor-icon-list-icon"
+                                            >
+                                              <i
+                                                aria-hidden="true"
+                                                class="fas fa-check"
+                                              ></i>
+                                            </span>
+                                            <span
+                                              class="elementor-icon-list-text"
+                                              >UX/UI</span
+                                            >
+                                          </li>
+                                          <li class="elementor-icon-list-item">
+                                            <span
+                                              class="elementor-icon-list-icon"
+                                            >
+                                              <i
+                                                aria-hidden="true"
+                                                class="fas fa-check"
+                                              ></i>
+                                            </span>
+                                            <span
+                                              class="elementor-icon-list-text"
+                                              >Website Design &
+                                              Optimization</span
+                                            >
+                                          </li>
+                                          <li class="elementor-icon-list-item">
+                                            <span
+                                              class="elementor-icon-list-icon"
+                                            >
+                                              <i
+                                                aria-hidden="true"
+                                                class="fas fa-check"
+                                              ></i>
+                                            </span>
+                                            <span
+                                              class="elementor-icon-list-text"
+                                              >Digital & Social Branding</span
+                                            >
+                                          </li>
+                                          <li class="elementor-icon-list-item">
+                                            <span
+                                              class="elementor-icon-list-icon"
+                                            >
+                                              <i
+                                                aria-hidden="true"
+                                                class="fas fa-check"
+                                              ></i>
+                                            </span>
+                                            <span
+                                              class="elementor-icon-list-text"
+                                              >Visual Design Systems</span
+                                            >
+                                          </li>
+                                          <li class="elementor-icon-list-item">
+                                            <span
+                                              class="elementor-icon-list-icon"
+                                            >
+                                              <i
+                                                aria-hidden="true"
+                                                class="fas fa-check"
+                                              ></i>
+                                            </span>
+                                            <span
+                                              class="elementor-icon-list-text"
+                                              >Content Strategy</span
+                                            >
+                                          </li>
+                                          <li class="elementor-icon-list-item">
+                                            <span
+                                              class="elementor-icon-list-icon"
+                                            >
+                                              <i
+                                                aria-hidden="true"
+                                                class="fas fa-check"
+                                              ></i>
+                                            </span>
+                                            <span
+                                              class="elementor-icon-list-text"
+                                              >Change Management</span
+                                            >
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              data-wavo-parallax='{"type":"scroll","speed":"0.4","imgsize":"cover","imgsrc":"assets/img/office2sm.jpg","mobile":"yes"}'
+              class="elementor-section elementor-top-section elementor-element elementor-element-69aaae16 elementor-section-stretched elementor-section-content-middle nt-section section-padding wavo-parallax jarallax parallax-yes wavo-mobile-parallax-yes elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+              data-id="69aaae16"
+              data-element_type="section"
+              data-settings='{"stretch_section":"section-stretched","background_background":"classic"}'
+            >
+              <div class="elementor-background-overlay"></div>
+              <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-row">
+                  <div
+                    class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-773f7dd2"
+                    data-id="773f7dd2"
+                    data-element_type="column"
+                  >
+                    <div
+                      class="elementor-column-wrap elementor-element-populated"
+                    >
+                      <div class="elementor-widget-wrap">
+                        <div
+                          data-split-settings='{"type":"chars","animation":"fadeInUp2"}'
+                          class="elementor-element elementor-element-29dbb10c wavo-headig-split heading-has-split-yes wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
+                          data-id="29dbb10c"
+                          data-element_type="widget"
+                          data-settings='{"_animation_delay":600,"_animation":"none"}'
+                          data-widget_type="heading.default"
+                        >
+                          <div class="elementor-widget-container">
+                            <h6
+                              class="elementor-heading-title elementor-size-default"
+                            >
+                              let's collab
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          class="elementor-element elementor-element-4b14e11c wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
+                          data-id="4b14e11c"
+                          data-element_type="widget"
+                          data-settings='{"_animation_delay":800,"_animation":"none"}'
+                          data-widget_type="heading.default"
+                        >
+                          <div class="elementor-widget-container">
+                            <h2
+                              class="elementor-heading-title elementor-size-default"
+                            >
+                              Let's build something great together.
+                            </h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-74fd7fd8"
+                    data-id="74fd7fd8"
+                    data-element_type="column"
+                  >
+                    <div
+                      class="elementor-column-wrap elementor-element-populated"
+                    >
+                      <div class="elementor-widget-wrap">
+                        <div
+                          class="elementor-element elementor-element-4598bb00 elementor-invisible elementor-widget elementor-widget-wavo-button"
+                          data-id="4598bb00"
+                          data-element_type="widget"
+                          data-settings='{"_animation":"fadeInRight"}'
+                          data-widget_type="wavo-button.default"
+                        >
+                          <div class="elementor-widget-container">
+                            <div class="wavo-button has-icon">
+                              <a
+                                data-scroll-to
+                                class="wavo-btn btn-curve btn-lit btn-icon-right"
+                                href="#"
+                                ><span class="button_text"
+                                  >Get in touch
+                                  <i
+                                    aria-hidden="true"
+                                    class="fas fa-arrow-right"
+                                  ></i></span
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer id="nt-footer" class="footer-sm">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-4">
+              <div class="left">
+                <p>All Rights Reserved.</p>
+              </div>
+            </div>
 
-        <div id="cursor1" class="cursor cursor1 cursor-type-1 wavo-cursor"></div>
+            <div class="col-lg-6 col-md-8">
+              <div class="right">
+                <p>&copy; 2021 United Collaborative</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <div id="cursor1" class="cursor cursor1 cursor-type-1 wavo-cursor"></div>
     </main>
-    <link rel='stylesheet' id='splitting-css' href='assets/css/splitting/splitting.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='splitting-cells-css' href='assets/css/splitting/splitting-cells.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='jquery-ui-css' href='assets/css/jquery-ui/jquery-ui.min.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='magnific-css' href='assets/css/magnific/magnific-popup.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='wavo-button2-css' href='assets/css/button2/style.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='aos-css' href='assets/css/aos/aos.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='e-animations-css' href='assets/css/animations/animations.min.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='vegas-css' href='assets/css/vegas/vegas.css' type='text/css' media='all' />
-    <script type='text/javascript' src='assets/js/scripts.js' id='wavo-main-js'></script>
-    <script type='text/javascript' src='assets/js/framework-settings.js' id='framework-settings-js'></script>
-    <script type='text/javascript' src='assets/js/comment-reply/comment-reply.min.js' id='comment-reply-js'></script>
-    <script type='text/javascript' src='assets/js/effect/effect.min.js' id='jquery-effects-core-js'></script>
-    <script type='text/javascript' src='assets/js/the-grid/the-grid.min.js' id='the-grid-js'></script>
-    <script type='text/javascript' src='assets/js/smooth-scroll/smoothScroll.min.js' id='smoothScroll-js'></script>
-    <script type='text/javascript' src='assets/js/splitting/splitting.min.js' id='splitting-js'></script>
-    <script type='text/javascript' src='assets/js/jquery-ui/jquery-ui.min.js' id='jquery-ui-js'></script>
-    <script type='text/javascript' src='assets/js/magnific/magnific-popup.min.js' id='magnific-js'></script>
-    <script type='text/javascript' src='assets/js/elementor/webpack.runtime.min.js' id='elementor-webpack-runtime-js'>
-    </script>
-    <script type='text/javascript' src='assets/js/elementor/frontend-modules.min.js' id='elementor-frontend-modules-js'>
-    </script>
-    <script type='text/javascript' src='assets/js/waypoints/waypoints.min.js' id='elementor-waypoints-js'></script>
-    <script type='text/javascript' src='assets/js/jquery-ui/core.min.js' id='jquery-ui-core-js'></script>
-    <script type='text/javascript' src='assets/js/swiper/swiper.min.js' id='swiper-js'></script>
-    <script type='text/javascript' src='assets/js/share-link/share-link.min.js' id='share-link-js'></script>
-    <script type='text/javascript' src='assets/js/dialog/dialog.min.js' id='elementor-dialog-js'></script>
-    <script type='text/javascript' src='assets/js/elementor/frontend.min.js' id='elementor-frontend-js'></script>
-    <script type='text/javascript' src='assets/js/button2/script.js' id='wavo-button2-js'></script>
-    <script type='text/javascript' src='assets/js/simpleParallax/simpleParallax.min.js' id='simple-parallax-js'>
-    </script>
-    <script type='text/javascript' src='assets/js/aos/aos.js' id='aos-js'></script>
-    <script type='text/javascript' src='assets/js/preload/preloaded-modules.min.js' id='preloaded-modules-js'></script>
-    <script type='text/javascript' src='assets/js/jarallax/jarallax.min.js' id='jarallax-js'></script>
-    <script type='text/javascript' src='assets/js/particles/particles.min.js' id='particles-js'></script>
-    <script type='text/javascript' src='assets/js/vegas/vegas.min.js' id='vegas-js'></script>
-    <script type='text/javascript' src='assets/js/custom-scripts.js' id='wavo-addons-custom-scripts-js'></script>
-
-</body>
-
+    <link
+      rel="stylesheet"
+      id="splitting-css"
+      href="assets/css/splitting/splitting.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="splitting-cells-css"
+      href="assets/css/splitting/splitting-cells.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="jquery-ui-css"
+      href="assets/css/jquery-ui/jquery-ui.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="magnific-css"
+      href="assets/css/magnific/magnific-popup.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="wavo-button2-css"
+      href="assets/css/button2/style.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="aos-css"
+      href="assets/css/aos/aos.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="e-animations-css"
+      href="assets/css/animations/animations.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="vegas-css"
+      href="assets/css/vegas/vegas.css"
+      type="text/css"
+      media="all"
+    />
+    <script
+      type="text/javascript"
+      src="assets/js/scripts.js"
+      id="wavo-main-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/framework-settings.js"
+      id="framework-settings-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/comment-reply/comment-reply.min.js"
+      id="comment-reply-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/effect/effect.min.js"
+      id="jquery-effects-core-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/the-grid/the-grid.min.js"
+      id="the-grid-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/smooth-scroll/smoothScroll.min.js"
+      id="smoothScroll-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/splitting/splitting.min.js"
+      id="splitting-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/jquery-ui/jquery-ui.min.js"
+      id="jquery-ui-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/magnific/magnific-popup.min.js"
+      id="magnific-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/elementor/webpack.runtime.min.js"
+      id="elementor-webpack-runtime-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/elementor/frontend-modules.min.js"
+      id="elementor-frontend-modules-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/waypoints/waypoints.min.js"
+      id="elementor-waypoints-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/jquery-ui/core.min.js"
+      id="jquery-ui-core-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/swiper/swiper.min.js"
+      id="swiper-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/share-link/share-link.min.js"
+      id="share-link-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/dialog/dialog.min.js"
+      id="elementor-dialog-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/elementor/frontend.min.js"
+      id="elementor-frontend-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/button2/script.js"
+      id="wavo-button2-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/simpleParallax/simpleParallax.min.js"
+      id="simple-parallax-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/aos/aos.js"
+      id="aos-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/preload/preloaded-modules.min.js"
+      id="preloaded-modules-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/jarallax/jarallax.min.js"
+      id="jarallax-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/particles/particles.min.js"
+      id="particles-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/vegas/vegas.min.js"
+      id="vegas-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/custom-scripts.js"
+      id="wavo-addons-custom-scripts-js"
+    ></script>
+  </body>
 </html>
