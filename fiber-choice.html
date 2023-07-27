@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+    <!-- Meta UTF8 charset -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0" />
+    <meta name="viewport"
+        content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui" />
+    <meta name="theme-color" content="#056EB9" />
+    <meta name="msapplication-navbutton-color" content="#056EB9" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#056EB9" />
+    <title>Fiber Choice &#8211; United Collab</title>
+    <meta name='robots' content='max-image-preview:large' />
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+    <link rel='stylesheet' id='wp-block-library-css' href='assets/css/style.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='classic-theme-styles-css' href='assets/css/classic-themes.min.css' type='text/css'
+        media='all' />
+    <link rel='stylesheet' id='bootstrap-css' href='assets/css/bootstrap/bootstrap.min.css' type='text/css'
+        media='all' />
+    <link rel='stylesheet' id='animate-css' href='assets/css/animate/animate.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='ionicons-css' href='assets/css/ionicons/ionicons.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='fontawesome-all-css' href='assets/css/fontawesome/fontawesome-all.min.css'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='helper-css' href='assets/css/helper/helper.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='hamburgers-css' href='assets/css/hamburgers/hamburgers.css' type='text/css'
+        media='all' />
+    <link rel='stylesheet' id='all-cursors-css' href='assets/css/cursor/all-cursors.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='nice-select-css' href='assets/css/nice-select/nice-select.css' type='text/css'
+        media='all' />
+    <link rel='stylesheet' id='wavo-style-css' href='assets/css/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='wavo-framework-style-css' href='assets/css/framework-style/framework-style.css'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='wavo-update-css' href='assets/css/update/update.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='wavo-fonts-css'
+        href='//fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C600%2C700%7CUbuntu%3A400%2C500%2C700%7CPoppins%3A200%2C300%2C400%2C500%2C600%2C700%2C800%7CRoboto%2BMono%3A400%2C700&#038;subset=latin%2Clatin-ext'
+        type='text/css' media='all' />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+    <link rel='stylesheet' id='elementor-icons-css' href='assets/css/elementor/elementor-icons.min.css' type='text/css'
+        media='all' />
+    <link rel='stylesheet' id='elementor-frontend-legacy-css' href='assets/css/elementor/frontend-legacy.min.css'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-frontend-css' href='assets/css/elementor/frontend.min.css' type='text/css'
+        media='all' />
+    <link rel='stylesheet' id='elementor-post-25-css' href='assets/css/elementor/post-25.css' type='text/css'
+        media='all' />
+    <link rel='stylesheet' id='wavo-custom-css' href='assets/css/elementor/custom.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-8712-css' href='assets/css/elementor/post-8712.css' type='text/css'
+        media='all' />
+    <link rel='stylesheet' id='the-grid-css' href='assets/css/the-grid/the-grid.min.css' type='text/css' media='all' />
+
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css?family=Zilla%20Slab:300,400,500,600,700,300italic,400italic,500italic,600italic,700italic&#038;subset=latin&#038;display=swap&#038;ver=1687364399" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Zilla%20Slab:300,400,500,600,700,300italic,400italic,500italic,600italic,700italic&#038;subset=latin&#038;display=swap&#038;ver=1687364399"
+        media="print" onload="this.media='all'"><noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Zilla%20Slab:300,400,500,600,700,300italic,400italic,500italic,600italic,700italic&#038;subset=latin&#038;display=swap&#038;ver=1687364399" />
+    </noscript>
+    <link rel='stylesheet' id='google-fonts-1-css'
+        href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CZilla+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CZilla+Slab+Highlight%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.2.2'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-icons-shared-0-css' href='assets/css/fontawesome/fontawesome.min.css'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-icons-fa-brands-css' href='assets/css/fontawesome/brands.min.css'
+        type='text/css' media='all' />
+    <script type='text/javascript' src='assets/js/jquery.min.js' id='jquery-core-js'></script>
+    <script type='text/javascript' src='assets/js/jquery-migrate.min.js' id='jquery-migrate-js'></script>
+    <script type='text/javascript' src='assets/js/wow/wow.min.js' id='wow-js'></script>
+    <script type='text/javascript' src='assets/js/cursor/all-cursors.js' id='all-cursors-js'></script>
+    <script type='text/javascript' src='assets/js/nice-select/jquery-nice-select.min.js' id='jquery-nice-select-js'>
+    </script>
+    <link rel="icon" href="assets/img/cropped-UC_flashdrive_back2-32x32.png" sizes="32x32" />
+    <link rel="icon" href="assets/img/cropped-UC_flashdrive_back2-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="assets/img/cropped-UC_flashdrive_back2-180x180.png" />
+    <meta name="msapplication-TileImage" content="assets/img/cropped-UC_flashdrive_back2-270x270.png" />
+</head>
+
+<!-- BODY START -->
+
+<body
+    class="projects-template-default single single-projects postid-8712  Wavo Child nt-version-1.1.9 preloader-on light split-animation-enabled use-elementor-style-kit nt-chrome nt-desktop elementor-default elementor-kit-25 elementor-page elementor-page-8712">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.498039215686" />
+                    <feFuncG type="table" tableValues="0 0.498039215686" />
+                    <feFuncB type="table" tableValues="0 0.498039215686" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.549019607843 0.988235294118" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.717647058824 0.254901960784" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.278431372549" />
+                    <feFuncB type="table" tableValues="0.592156862745 0.278431372549" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.647058823529" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.780392156863 1" />
+                    <feFuncG type="table" tableValues="0 0.949019607843" />
+                    <feFuncB type="table" tableValues="0.352941176471 0.470588235294" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.650980392157 0.403921568627" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.447058823529 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.0980392156863 1" />
+                    <feFuncG type="table" tableValues="0 0.662745098039" />
+                    <feFuncB type="table" tableValues="0.847058823529 0.419607843137" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg>
+    <main id="main-scrollbar" data-wavo-scrollbar='{"time":1000,"step":100,"delta":50,"max":3}'>
+        <div id="nt-preloader" class="preloader">
+            <div class="loader09"></div>
+        </div>
+
+
+        <div id="navi" class="topnav ">
+            <div class="container-fluid">
+
+                <div class="logo">
+
+                    <a href="index.html" id="nt-logo"
+                        class="header_logo logo-type-img has-mobile-logo has-sticky-logo">
+
+
+                        <img class="main-logo" src="assets/img/UC_logo_white.svg" alt="United Collab" />
+                        <img class="sticky-logo" src="assets/img/UC_mark_white.svg" alt="United Collab" />
+                        <img class="mobile-logo" src="assets/img/UC_mark_white.svg" alt="United Collab" />
+
+                    </a>
+                </div>
+
+
+                <div class="hamburger hamburger--slider">
+                    <div class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="hamenu" id="hamenu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 col-md-8">
+                        <div class="menu-links">
+                            <ul class="main-menu">
+                                <li id="menu-item-4859"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-4859">
+                                    <div class="o-hidden"><a href="index.html"
+                                            class="link"><span class="nm"></span>Home </a></div>
+                                </li>
+                                <li id="menu-item-4866"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4866">
+                                    <div class="o-hidden"><a
+                                            href="capabilities.html"
+                                            class="link"><span class="nm"></span>Capabilities </a></div>
+                                </li>
+                                <li id="menu-item-4865"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4865">
+                                    <div class="o-hidden"><a href="our-work.html"
+                                            class="link"><span class="nm"></span>Our Work </a></div>
+                                </li>
+                                <li id="menu-item-4862"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4862">
+                                    <div class="o-hidden"><a href="contact.html"
+                                            class="link"><span class="nm"></span>Contact </a></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="cont-info">
+                            <div class="item">
+                                <h6><span
+                                        style="font-size: 12px; font-family: Tahoma, Arial, sans-serif; font-weight: 400; color: #999;">Address:</span>
+                                </h6>
+                                1240 Johnson Ferry Place
+                                Suite 222
+                                Marietta, GA 30068
+
+                            </div>
+                            <div class="item">
+                                <h6><span
+                                        style="font-size: 12px; font-family: Tahoma, Arial, sans-serif; font-weight: 400; color: #999;">General
+                                        Inquiries:</span></h6>
+                                hello@unitedcollab.com
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="progress-wrap">
+            <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+            </svg>
+        </div>
+        <div data-elementor-type="wp-post" data-elementor-id="8712" class="elementor elementor-8712"
+            data-elementor-settings="[]">
+            <div class="elementor-inner">
+                <div class="elementor-section-wrap">
+                    <section
+                        class="elementor-section elementor-top-section elementor-element elementor-element-3b9fd5a elementor-section-full_width elementor-section-height-full elementor-section-height-default elementor-section-items-middle"
+                        data-id="3b9fd5a" data-element_type="section"
+                        data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:8713,&quot;url&quot;:&quot;assets/img/fiber-choice-hero.jpg&quot;}],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500}">
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-row">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-84af925"
+                                    data-id="84af925" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <section
+                                                class="elementor-section elementor-inner-section elementor-element elementor-element-273cdd3 animated-slow elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-invisible"
+                                                data-id="273cdd3" data-element_type="section"
+                                                data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-3c53233"
+                                                            data-id="3c53233" data-element_type="column">
+                                                            <div
+                                                                class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-12d9160 wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
+                                                                        data-id="12d9160" data-element_type="widget"
+                                                                        data-widget_type="heading.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <h2
+                                                                                class="elementor-heading-title elementor-size-default">
+                                                                                fiber choice</h2>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-2b17cf3 wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
+                                                                        data-id="2b17cf3" data-element_type="widget"
+                                                                        data-widget_type="heading.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <h2
+                                                                                class="elementor-heading-title elementor-size-default">
+                                                                                Connecting consumers to a healthy,
+                                                                                high-fiber lifestyle</h2>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section
+                        class="elementor-section elementor-top-section elementor-element elementor-element-02bee95 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                        data-id="02bee95" data-element_type="section"
+                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-row">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-808514b"
+                                    data-id="808514b" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <section
+                                                class="elementor-section elementor-inner-section elementor-element elementor-element-97112a2 elementor-section-content-middle animated-slow elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible"
+                                                data-id="97112a2" data-element_type="section"
+                                                data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
+                                                <div class="elementor-container elementor-column-gap-wide">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3ebdc05"
+                                                            data-id="3ebdc05" data-element_type="column">
+                                                            <div
+                                                                class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-2d3ccd0 wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
+                                                                        data-id="2d3ccd0" data-element_type="widget"
+                                                                        data-widget_type="heading.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <h6
+                                                                                class="elementor-heading-title elementor-size-default">
+                                                                                Client</h6>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-dc0c7f9 elementor-widget elementor-widget-wavo-project-meta"
+                                                                        data-id="dc0c7f9" data-element_type="widget"
+                                                                        data-widget_type="wavo-project-meta.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <p class="tags"><a
+                                                                                    href="#"
+                                                                                    rel="tag">Nestle</a></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6c54433"
+                                                            data-id="6c54433" data-element_type="column">
+                                                            <div
+                                                                class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-9201fa4 wavo-transform transform-type-translate elementor-widget elementor-widget-heading"
+                                                                        data-id="9201fa4" data-element_type="widget"
+                                                                        data-widget_type="heading.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <h6
+                                                                                class="elementor-heading-title elementor-size-default">
+                                                                                Our role</h6>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-8bd632e elementor-widget elementor-widget-wavo-project-meta"
+                                                                        data-id="8bd632e" data-element_type="widget"
+                                                                        data-widget_type="wavo-project-meta.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <p class="cats"><a
+                                                                                    href="#"
+                                                                                    title="">Consumer
+                                                                                    Engagement</a> , <a
+                                                                                    href="#"
+                                                                                    title="">Creative</a>
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section
+                        class="elementor-section elementor-top-section elementor-element elementor-element-b5ba69e nt-section section-padding elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                        data-id="b5ba69e" data-element_type="section"
+                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-row">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-80e9725"
+                                    data-id="80e9725" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-70276e8 animated-slow elementor-invisible elementor-widget elementor-widget-text-editor"
+                                                data-id="70276e8" data-element_type="widget"
+                                                data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}"
+                                                data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-text-editor elementor-clearfix">
+                                                        <p>Fiber Choice isn&#8217;t your grandparents&#8217; fiber
+                                                            supplement. It&#8217;s delicious, convenient and represents
+                                                            a healthy active lifestyle. But driving consumer engagement
+                                                            with a healthcare brand in a crowded digital space is no
+                                                            simple task. Fiber Choice presented us with a blank digital
+                                                            canvas, and our designers and strategists got to roll up
+                                                            their sleeves and play.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section
+                        class="elementor-section elementor-top-section elementor-element elementor-element-44d4865 nt-section section-padding elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                        data-id="44d4865" data-element_type="section">
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-row">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f6aab60"
+                                    data-id="f6aab60" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-b61df2e wavo-headig-line heading-has-line-yes animated-slow wavo-transform transform-type-translate elementor-invisible elementor-widget elementor-widget-heading"
+                                                data-id="b61df2e" data-element_type="widget"
+                                                data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h5 class="elementor-heading-title elementor-size-default">Problem
+                                                        &amp; Research</h5>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-d84a2e6 animated-slow elementor-invisible elementor-widget elementor-widget-text-editor"
+                                                data-id="d84a2e6" data-element_type="widget"
+                                                data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}"
+                                                data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-text-editor elementor-clearfix">
+                                                        <p>When our client acquired a fledging fiber supplement brand in
+                                                            2017, we were essentially starting from scratch in terms of
+                                                            building a digital presence. There was a Facebook page with
+                                                            a decent number of followers. However, there had been no
+                                                            activity for close to a year, so follow engagement was
+                                                            nearly nonexistent. </p>
+                                                        <p>Aside from the Facebook page, there was nothing. The website
+                                                            was outdated, the TV ad was old, and the brand had no other
+                                                            social media accounts or means of interacting with its
+                                                            customers. </p>
+                                                        <p>Thus, we were tasked with building this brand from the ground
+                                                            up. We started with a packaging facelift, a vibrant new TV
+                                                            ad, and finally hit the ground running with an aggressive
+                                                            social media strategy.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div data-image-reveal-settings="{&quot;orientation&quot;:&quot;left&quot;,&quot;delay&quot;:&quot;&quot;,&quot;offset&quot;:&quot;&quot;,&quot;once&quot;:&quot;false&quot;}"
+                                                class="elementor-element elementor-element-c94a3a2 animated-slow wavo-image-reveal image-has-reveal-yes elementor-invisible elementor-widget elementor-widget-image"
+                                                data-id="c94a3a2" data-element_type="widget"
+                                                data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}"
+                                                data-widget_type="image.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-image">
+                                                        <img decoding="async" width="605" height="341"
+                                                            src="assets/img/TV-spot.jpg"
+                                                            class="attachment-full size-full" alt="" loading="lazy"
+                                                            srcset="assets/img/TV-spot.jpg 605w, assets/img/TV-spot-500x282.jpg 500w"
+                                                            sizes="(max-width: 605px) 100vw, 605px" /> </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section
+                        class="elementor-section elementor-top-section elementor-element elementor-element-b00ef56 nt-section section-padding pb-0 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                        data-id="b00ef56" data-element_type="section"
+                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-row">
+                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-43abbfa"
+                                    data-id="43abbfa" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-0521172 wavo-headig-line heading-has-line-yes animated-slow wavo-transform transform-type-translate elementor-invisible elementor-widget elementor-widget-heading"
+                                                data-id="0521172" data-element_type="widget"
+                                                data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h5 class="elementor-heading-title elementor-size-default">Solution
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-268ec99 animated-slow elementor-invisible elementor-widget elementor-widget-text-editor"
+                                                data-id="268ec99" data-element_type="widget"
+                                                data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}"
+                                                data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-text-editor elementor-clearfix">
+                                                        <p>With brand staples in place, we set out to grow an engaged
+                                                            online following. After careful analysis of what competing
+                                                            brands were doing well (and not so well) in the social media
+                                                            space, we devised a strategy that involved equal parts
+                                                            aspirational, lifestyle imagery and useful, educational
+                                                            content.</p>
+                                                        <p>Regular weekly posts like Move-It Mondays, Wellness
+                                                            Wednesdays (which link to blog posts), and Fiber Fact
+                                                            Fridays provide Fiber Choice followers with inspiration and
+                                                            knowledge to guide them on their health journeys. Monthly
+                                                            recipe videos provide a sense of the FC brand as part of a
+                                                            holistic wellness-centric lifestyle. This engaging content
+                                                            also serves as a memorable and delicious call to action.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b81d270"
+                                    data-id="b81d270" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-b38c946 animated-slow elementor-invisible elementor-widget elementor-widget-image"
+                                                data-id="b38c946" data-element_type="widget"
+                                                data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}"
+                                                data-widget_type="image.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-image">
+                                                        <img decoding="async" width="220" height="423"
+                                                            src="assets/img/fc-social-phone.png"
+                                                            class="attachment-large size-large" alt="" loading="lazy" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section
+                        class="elementor-section elementor-top-section elementor-element elementor-element-80b5f00 nt-section section-padding elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                        data-id="80b5f00" data-element_type="section"
+                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;none&quot;}">
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-row">
+                                <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-00a7d70 elementor-invisible"
+                                    data-id="00a7d70" data-element_type="column"
+                                    data-settings="{&quot;animation&quot;:&quot;bounceInUp&quot;}">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-02ee89c elementor-widget elementor-widget-image"
+                                                data-id="02ee89c" data-element_type="widget"
+                                                data-widget_type="image.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-image">
+                                                        <img decoding="async" width="500" height="500"
+                                                            src="assets/img/fc-wellness-500x500.jpg"
+                                                            class="attachment-wavo-square size-wavo-square" alt=""
+                                                            loading="lazy"
+                                                            srcset="assets/img/fc-wellness-500x500.jpg 500w, assets/img/fc-wellness-768x768.jpg 768w, assets/img/fc-wellness-1000x1000.jpg 1000w, assets/img/fc-wellness-750x750.jpg 750w, assets/img/fc-wellness.jpg 1080w"
+                                                            sizes="(max-width: 500px) 100vw, 500px" /> </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-edc1e6d"
+                                    data-id="edc1e6d" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-1a42ff9 elementor-invisible elementor-widget elementor-widget-image"
+                                                data-id="1a42ff9" data-element_type="widget"
+                                                data-settings="{&quot;_animation&quot;:&quot;bounceInUp&quot;}"
+                                                data-widget_type="image.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-image">
+                                                        <img decoding="async" width="500" height="500"
+                                                            src="assets/img/fc-testimonials-500x500.jpg"
+                                                            class="attachment-wavo-square size-wavo-square" alt=""
+                                                            loading="lazy"
+                                                            srcset="assets/img/fc-testimonials-500x500.jpg 500w, assets/img/fc-testimonials-768x768.jpg 768w, assets/img/fc-testimonials-1000x1000.jpg 1000w, assets/img/fc-testimonials-750x750.jpg 750w, assets/img/fc-testimonials.jpg 1080w"
+                                                            sizes="(max-width: 500px) 100vw, 500px" /> </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-e475721"
+                                    data-id="e475721" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-279c5b9 elementor-invisible elementor-widget elementor-widget-image"
+                                                data-id="279c5b9" data-element_type="widget"
+                                                data-settings="{&quot;_animation&quot;:&quot;bounceInUp&quot;}"
+                                                data-widget_type="image.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-image">
+                                                        <img decoding="async" width="500" height="500"
+                                                            src="assets/img/fc-shop-500x500.jpg"
+                                                            class="attachment-wavo-square size-wavo-square" alt=""
+                                                            loading="lazy"
+                                                            srcset="assets/img/fc-shop-500x500.jpg 500w, assets/img/fc-shop-768x768.jpg 768w, assets/img/fc-shop-1000x1000.jpg 1000w, assets/img/fc-shop-750x750.jpg 750w, assets/img/fc-shop.jpg 1080w"
+                                                            sizes="(max-width: 500px) 100vw, 500px" /> </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-2c65c04"
+                                    data-id="2c65c04" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-666e648 elementor-invisible elementor-widget elementor-widget-image"
+                                                data-id="666e648" data-element_type="widget"
+                                                data-settings="{&quot;_animation&quot;:&quot;bounceInUp&quot;}"
+                                                data-widget_type="image.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-image">
+                                                        <img decoding="async" width="500" height="500"
+                                                            src="assets/img/fc-recipes-500x500.jpg"
+                                                            class="attachment-wavo-square size-wavo-square" alt=""
+                                                            loading="lazy"
+                                                            srcset="assets/img/fc-recipes-500x500.jpg 500w, assets/img/fc-recipes-768x768.jpg 768w, assets/img/fc-recipes-1000x1000.jpg 1000w, assets/img/fc-recipes-750x750.jpg 750w, assets/img/fc-recipes.jpg 1080w"
+                                                            sizes="(max-width: 500px) 100vw, 500px" /> </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-2a349dc"
+                                    data-id="2a349dc" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-40204a7 elementor-invisible elementor-widget elementor-widget-image"
+                                                data-id="40204a7" data-element_type="widget"
+                                                data-settings="{&quot;_animation&quot;:&quot;bounceInUp&quot;}"
+                                                data-widget_type="image.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-image">
+                                                        <img decoding="async" width="500" height="500"
+                                                            src="assets/img/fc-benefits-500x500.jpg"
+                                                            class="attachment-wavo-square size-wavo-square" alt=""
+                                                            loading="lazy"
+                                                            srcset="assets/img/fc-benefits-500x500.jpg 500w, assets/img/fc-benefits-768x768.jpg 768w, assets/img/fc-benefits-1000x1000.jpg 1000w, assets/img/fc-benefits-750x750.jpg 750w, assets/img/fc-benefits.jpg 1080w"
+                                                            sizes="(max-width: 500px) 100vw, 500px" /> </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-ca1d7d9"
+                                    data-id="ca1d7d9" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-c27c84f elementor-invisible elementor-widget elementor-widget-image"
+                                                data-id="c27c84f" data-element_type="widget"
+                                                data-settings="{&quot;_animation&quot;:&quot;bounceInUp&quot;}"
+                                                data-widget_type="image.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-image">
+                                                        <img decoding="async" width="500" height="500"
+                                                            src="assets/img/fc-tips-500x500.jpg"
+                                                            class="attachment-wavo-square size-wavo-square" alt=""
+                                                            loading="lazy"
+                                                            srcset="assets/img/fc-tips-500x500.jpg 500w, assets/img/fc-tips-768x768.jpg 768w, assets/img/fc-tips-1000x1000.jpg 1000w, assets/img/fc-tips-750x750.jpg 750w, assets/img/fc-tips.jpg 1080w"
+                                                            sizes="(max-width: 500px) 100vw, 500px" /> </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section
+                        class="elementor-section elementor-top-section elementor-element elementor-element-cbbca3d nt-section section-padding elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                        data-id="cbbca3d" data-element_type="section">
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-row">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7709614"
+                                    data-id="7709614" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-084f736 wavo-headig-line heading-has-line-yes animated-slow wavo-transform transform-type-translate elementor-invisible elementor-widget elementor-widget-heading"
+                                                data-id="084f736" data-element_type="widget"
+                                                data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h5 class="elementor-heading-title elementor-size-default">Results
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-1ca2e6c animated-slow elementor-invisible elementor-widget elementor-widget-text-editor"
+                                                data-id="1ca2e6c" data-element_type="widget"
+                                                data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}"
+                                                data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-text-editor elementor-clearfix">
+                                                        <p>Just eight months after opening the account, Fiber Choice had
+                                                            over 3,000 Instagram followers. The brand’s Facebook page,
+                                                            which already had a little over 100,000 likes, had also
+                                                            grown by about 3,000 followers. As a result, web traffic
+                                                            increased by more than 50% in the first 8 months.</p>
+                                                        <p>Now, a year and change into Fiber Choice’s social media life,
+                                                            the Instagram account has grown to over 13,000 followers.
+                                                            Giveaways, influencer marketing, and sponsored posts,
+                                                            combined with vibrant, relevant content has grown the Fiber
+                                                            Choice brand from a little-known supplement to a social
+                                                            media force!</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-48e64b7 elementor-widget elementor-widget-wavo-about-two-images"
+                                                data-id="48e64b7" data-element_type="widget"
+                                                data-widget_type="wavo-about-two-images.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="agency">
+                                                        <div class="img">
+                                                            <div class="imgone" data-wow-delay=".3s"><img
+                                                                    decoding="async" class="thumparallax"
+                                                                    src="assets/img/FC-grier-e1614285301140.jpg"
+                                                                    alt="FC-grier-e1614285301140.jpg" /></div>
+                                                            <div class="imgtwo" data-wow-delay=".2s"><img
+                                                                    decoding="async" class="thumparallax-down"
+                                                                    src="assets/img/FC_giveaway.jpg"
+                                                                    alt="FC-grier-e1614285301140.jpg" /></div><span
+                                                                class="icon wow fadeIn" data-wow-delay=".1s"><i
+                                                                    aria-hidden="true"
+                                                                    class="fab fa-instagram"></i></span>
+                                                            <div class="exp">
+                                                                <h2 class="nmb-font">12k</h2>
+                                                                <h6>followers and counting!</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section
+                        class="elementor-section elementor-top-section elementor-element elementor-element-650f907 elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                        data-id="650f907" data-element_type="section"
+                        data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+                        <div class="elementor-container elementor-column-gap-no">
+                            <div class="elementor-row">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-128dfca"
+                                    data-id="128dfca" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-c1ca176 elementor-widget elementor-widget-wavo-project-next"
+                                                data-id="c1ca176" data-element_type="widget"
+                                                data-widget_type="wavo-project-next.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="call-action nogif next">
+                                                        <div class="container">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="content text-center"><a
+                                                                            href="persimia.html">
+                                                                            <h6 class="wow" data-splitting>Next Case
+                                                                                Study</h6>
+                                                                            <h2 class="wow" data-splitting><b
+                                                                                    class="filled">Persimia</b></h2>
+                                                                        </a></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="nxt-img bg-img"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <footer id="nt-footer" class="footer-sm">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-md-4">
+                        <div class="left">
+
+                            <p>All Rights Reserved.</p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-8">
+                        <div class="right">
+
+
+                            <p>&copy; 2021 United Collaborative</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <div id="cursor1" class="cursor cursor1 cursor-type-1 wavo-cursor"></div>
+    </main>
+    <link rel='stylesheet' id='splitting-css' href='assets/css/splitting/splitting.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='splitting-cells-css' href='assets/css/splitting/splitting-cells.css' type='text/css'
+        media='all' />
+    <link rel='stylesheet' id='aos-css' href='assets/css/aos/aos.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='e-animations-css' href='assets/css/animations/animations.min.css' type='text/css'
+        media='all' />
+        <link rel='stylesheet' id='vegas-css' href='assets/css/vegas/vegas.css' type='text/css' media='all' />
+        <script type='text/javascript' src='assets/js/scripts.js' id='wavo-main-js'></script>
+        <script type='text/javascript' src='assets/js/framework-settings.js' id='framework-settings-js'></script>
+        <script type='text/javascript' src='assets/js/comment-reply/comment-reply.min.js' id='comment-reply-js'></script>
+        <script type='text/javascript' src='assets/js/effect/effect.min.js' id='jquery-effects-core-js'></script>
+
+        <script type='text/javascript' src='assets/js/the-grid/the-grid.min.js' id='the-grid-js'></script>
+        <script type='text/javascript' src='assets/js/smooth-scroll/smoothScroll.min.js' id='smoothScroll-js'></script>
+        <script type='text/javascript' src='assets/js/splitting/splitting.min.js' id='splitting-js'></script>
+    <script type='text/javascript' src='assets/js/aos/aos.js' id='aos-js'> </script>
+    <script type='text/javascript' src='assets/js/simpleParallax/simpleParallax.min.js' id='simple-parallax-js'>
+    </script>
+    <script type='text/javascript' src='assets/js/elementor/webpack.runtime.min.js' id='elementor-webpack-runtime-js'>
+    </script>
+    <script type='text/javascript' src='assets/js/elementor/frontend-modules.min.js' id='elementor-frontend-modules-js'>
+    </script>
+    <script type='text/javascript' src='assets/js/waypoints/waypoints.min.js' id='elementor-waypoints-js'></script>
+    <script type='text/javascript' src='assets/js/jquery-ui/core.min.js' id='jquery-ui-core-js'></script>
+    <script type='text/javascript' src='assets/js/swiper/swiper.min.js' id='swiper-js'></script>
+    <script type='text/javascript' src='assets/js/share-link/share-link.min.js' id='share-link-js'></script>
+    <script type='text/javascript' src='assets/js/dialog/dialog.min.js' id='elementor-dialog-js'></script>
+    <script type='text/javascript' src='assets/js/elementor/frontend.min.js' id='elementor-frontend-js'></script>
+    <script type='text/javascript' src='assets/js/preload/preloaded-modules.min.js' id='preloaded-modules-js'></script>
+    <script type='text/javascript' src='assets/js/jarallax/jarallax.min.js' id='jarallax-js'></script>
+    <script type='text/javascript' src='assets/js/particles/particles.min.js' id='particles-js'></script>
+    <script type='text/javascript' src='assets/js/vegas/vegas.min.js' id='vegas-js'></script>
+    <script type='text/javascript' src='assets/js/custom-scripts.js' id='wavo-addons-custom-scripts-js'></script>
+
+</body>
+
+</html>
