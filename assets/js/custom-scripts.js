@@ -2824,3 +2824,25 @@
     });
 
 })(jQuery);
+
+// Function to open the modal and play the video
+function openModal() {
+    const modal = document.getElementById('videoModal');
+    const videoPlayer = document.getElementById('videoPlayer');
+    modal.style.display = 'block';
+    videoPlayer.play();
+  }
+  
+  // Function to close the modal and pause the video
+  function closeModal() {
+    const modal = document.getElementById('videoModal');
+    const videoPlayer = document.getElementById('videoPlayer');
+    modal.style.display = 'none';
+    videoPlayer.pause();
+  }
+  
+  // Attach event listener to the button to open the modal
+  document.getElementById('openModalButton').addEventListener('click', openModal);
+  
+  // Attach event listener to the close button in the modal to close it
+  document.getElementById('closeModalButton').addEventListener('click', closeModal);

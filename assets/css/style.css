@@ -582,6 +582,7 @@ a:hover {
         -webkit-transform: translateY(20px);
         transform: translateY(20px);
     }
+
     100% {
         opacity: 1;
         -webkit-transform: translateY(0);
@@ -595,6 +596,7 @@ a:hover {
         -webkit-transform: translateY(20px);
         transform: translateY(20px);
     }
+
     100% {
         opacity: 1;
         -webkit-transform: translateY(0);
@@ -618,6 +620,7 @@ a:hover {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -627,6 +630,7 @@ a:hover {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -3662,127 +3666,163 @@ body.dark .contact .form textarea {
     .md-mb10 {
         margin-bottom: 10px;
     }
+
     .md-mb20 {
         margin-bottom: 20px;
     }
+
     .md-mb30 {
         margin-bottom: 30px;
     }
+
     .md-mb40 {
         margin-bottom: 40px;
     }
+
     .md-mb50 {
         margin-bottom: 50px;
     }
+
     .md-mb60 {
         margin-bottom: 60px;
     }
+
     .md-mb70 {
         margin-bottom: 70px;
     }
+
     .md-mb80 {
         margin-bottom: 80px;
     }
+
     .md-pb10 {
         padding-bottom: 10px;
     }
+
     .md-pb20 {
         padding-bottom: 20px;
     }
+
     .md-pb30 {
         padding-bottom: 30px;
     }
+
     .md-pb40 {
         padding-bottom: 40px;
     }
+
     .md-pb50 {
         padding-bottom: 50px;
     }
+
     .md-pb60 {
         padding-bottom: 60px;
     }
+
     .md-pb70 {
         padding-bottom: 70px;
     }
+
     .md-pb80 {
         padding-bottom: 80px;
     }
+
     .slide-full .swiper-slide .bg-img,
     .slider-portfolio .swiper-slide .bg-img,
     .slider .parallax-slider .swiper-slide .bg-img {
         background-position: center center;
     }
+
     .slider .parallax-slider .caption,
     .slider-portfolio .swiper-slide .caption,
     .slide-full .capt {
         text-align: center;
     }
+
     .slider .parallax-slider .caption h1,
     .slider-portfolio .swiper-slide .caption h1,
     .slide-full .capt h1 {
         font-size: 50px;
     }
+
     .slider-portfolio .swiper-slide .bg-img {
         height: 50vh;
         margin-top: 30vh;
     }
+
     .slide-controls .swiper-button-next,
     .slide-controls .swiper-pagination-fraction {
         right: 25px;
     }
+
     .slide-controls .swiper-button-prev,
     .slide-full .social,
     .slider .parallax-slider .social {
         left: 25px;
     }
+
     .slide-controls.swiper-button-next:hover {
         right: 15px;
     }
+
     .slide-controls .swiper-button-prev:hover {
         left: 15px;
     }
+
     .intro-section .htit {
         margin-bottom: 30px;
     }
+
     .agency .imgsec {
         margin-bottom: 100px;
     }
+
     .agency .content h4 br {
         display: none;
     }
+
     .min-area .content {
         padding: 120px 0;
     }
+
     .process .section-head {
         margin-bottom: 80px;
     }
+
     .process .background {
         position: relative;
         top: 0;
         bottom: 0;
         height: 350px;
     }
+
     .process .background .vid {
         left: calc(50% - 50px);
         top: calc(50% - 50px);
     }
+
     .testimonials:after {
         top: 0;
         bottom: 0;
         width: 100%;
     }
+
     .testimonials .slider-for {
         margin-bottom: 30px;
     }
+
     .testimonials .title h5 {
         display: none;
     }
+
     .agency .img {
         margin-top: 80px;
     }
+
     .nt-blog .item .content {
         padding: 30px 0px 70px;
     }
+
     .nt-blog .controls {
         width: 80px;
         height: 80px;
@@ -3790,22 +3830,28 @@ body.dark .contact .form textarea {
         top: calc(100% - 40px);
         left: calc(50% - 40px);
     }
+
     .call-action .content h2 .word {
         margin-right: 3px;
     }
+
     .clients .brands {
         padding: 50px 10px;
     }
+
     .team {
         padding-top: 0;
     }
+
     .page-header .img-wrapper .title h3 {
         font-size: 70px;
     }
+
     .portfolio.gutter .gallery .items {
         margin-top: 60px;
         padding: 0 30px;
     }
+
     .page-header.proj-det .img-wrapper {
         min-height: 60vh;
     }
@@ -3815,105 +3861,137 @@ body.dark .contact .form textarea {
     .sm-mb10 {
         margin-bottom: 10px;
     }
+
     .sm-mb20 {
         margin-bottom: 20px;
     }
+
     .sm-mb30 {
         margin-bottom: 30px;
     }
+
     .sm-mb40 {
         margin-bottom: 40px;
     }
+
     .sm-mb50 {
         margin-bottom: 50px;
     }
+
     .sm-mb60 {
         margin-bottom: 60px;
     }
+
     .sm-mb70 {
         margin-bottom: 70px;
     }
+
     .sm-mb80 {
         margin-bottom: 80px;
     }
+
     .sm-pb10 {
         padding-bottom: 10px;
     }
+
     .sm-pb20 {
         padding-bottom: 20px;
     }
+
     .sm-pb30 {
         padding-bottom: 30px;
     }
+
     .sm-pb40 {
         padding-bottom: 40px;
     }
+
     .sm-pb50 {
         padding-bottom: 50px;
     }
+
     .sm-pb60 {
         padding-bottom: 60px;
     }
+
     .sm-pb70 {
         padding-bottom: 70px;
     }
+
     .sm-pb80 {
         padding-bottom: 80px;
     }
+
     h1 {
         font-size: 35px;
     }
+
     h2 {
         font-size: 28px;
     }
+
     h3 {
         font-size: 24px;
     }
+
     h4 {
         font-size: 20px;
     }
+
     h5 {
         font-size: 18px;
     }
+
     h6 {
         font-size: 16px;
     }
+
     .hamenu .menu-links .main-menu>li {
         font-size: 24px;
     }
+
     .hamenu .menu-links .main-menu .sub-menu li {
         font-size: 18px;
     }
+
     .topnav .container-fluid {
         padding: 0 30px;
     }
+
     .section-padding,
     .min-area .content {
         padding: 100px 0;
     }
+
     .section-head h6 {
         letter-spacing: 2px;
         font-size: 12px;
     }
+
     .topnav .logo {
         width: 60px;
     }
+
     .section-head {
         margin-bottom: 60px !important;
     }
+
     .slider .parallax-slider .caption h1,
     .slide-full .capt h1,
     .slider-portfolio .swiper-slide .caption h1 {
         font-size: 40px;
     }
+
     .extra-title,
     .agency .content h4,
     .min-area .content h4 {
         font-size: 30px;
     }
+
     .agency .imgsec .imgtwo {
         display: none;
     }
+
     .agency .imgsec .imgone:after {
         content: '';
         position: absolute;
@@ -3923,6 +4001,7 @@ body.dark .contact .form textarea {
         right: 0;
         background: rgba(0, 0, 0, 0.3);
     }
+
     .agency .imgsec .exp {
         right: 30px;
         position: absolute;
@@ -3931,34 +4010,42 @@ body.dark .contact .form textarea {
         padding: 0;
         z-index: 2;
     }
+
     .agency .imgsec .exp h6 {
         color: #eee;
     }
+
     .footer-sm,
     .footer-sm .right p {
         text-align: center;
     }
+
     .progress-wrap {
         right: 20px;
         bottom: 20px;
         width: 30px;
         height: 30px;
     }
+
     .progress-wrap::after {
         width: 30px;
         height: 30px;
         line-height: 30px;
     }
+
     .clients .bord {
         border: 0;
     }
+
     .call-action .content h2,
     .call-action.next .content h2 {
         font-size: 50px;
     }
+
     .nt-blog-pg .posts .item .content {
         position: relative;
     }
+
     .nt-blog-pg .posts .item .content .col-10,
     .nt-blog-pg .posts .item .content .col-2 {
         width: 100%;
@@ -3967,27 +4054,33 @@ body.dark .contact .form textarea {
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
     }
+
     .nt-blog-pg .posts .item .content .col-2 {
         position: absolute;
         right: 0px;
         top: -90px;
         z-index: 3;
     }
+
     .nt-blog-pg .posts .item .content .date a {
         padding: 10px;
         background: #fff;
         margin: 0;
     }
+
     .nt-blog-pg .posts .item .content .date .num {
         font-size: 25px;
         margin: 0;
     }
+
     .nt-blog-pg.single .comments-area .item.relped {
         margin-left: 0px;
     }
+
     .nt-blog-pg.single .post .img {
         min-height: 50vh;
     }
+
     .nt-blog-pg.single .comments-area .item .info h6 span {
         display: block;
         margin: 10px 0 0 0;
@@ -3998,16 +4091,20 @@ body.dark .contact .form textarea {
     .hamenu .cont-info {
         display: none;
     }
+
     .hamenu .menu-links .main-menu>li {
         font-size: 20px;
         padding: 7px;
     }
+
     .hamenu .menu-links .main-menu .sub-menu li {
         font-size: 16px;
     }
+
     .topnav .container-fluid {
         padding: 0 15px;
     }
+
     .slide-full .capt .dis,
     .slider-portfolio .swiper-slide .caption .dis,
     .slider .parallax-slider .caption .dis {
@@ -4015,45 +4112,57 @@ body.dark .contact .form textarea {
         letter-spacing: 2px;
         margin-top: 20px;
     }
+
     .slide-full .capt .dis:after,
     .slider-portfolio .swiper-slide .caption .dis:after,
     .slider .parallax-slider .caption .dis:after {
         display: none;
     }
+
     .slide-controls .swiper-button-next {
         right: 5px;
     }
+
     .slide-controls .swiper-button-next i {
         left: 30px;
     }
+
     .slide-controls .swiper-button-next i:after {
         width: 20px;
     }
+
     .slide-controls .swiper-button-prev {
         left: 5px;
     }
+
     .slide-controls .swiper-button-prev i {
         left: 10px;
     }
+
     .slide-controls .swiper-button-prev i:after {
         width: 20px;
     }
+
     .slide-controls .swiper-button-next,
     .slide-controls .swiper-button-prev {
         -webkit-transform: scale(0.8);
         transform: scale(0.8);
     }
+
     .slide-controls .swiper-button-next:hover {
         right: 0 !important;
     }
+
     .slide-controls .swiper-button-prev:hover {
         left: 0 !important;
     }
+
     .slide-full .capt h1,
     .slider-portfolio .swiper-slide .caption h1,
     .slider .parallax-slider .caption h1 {
         font-size: 28px;
     }
+
     .work-carousel .swiper-button-next,
     .work-carousel .swiper-button-prev {
         width: 35px;
@@ -4061,118 +4170,183 @@ body.dark .contact .form textarea {
         line-height: 35px;
         font-size: 16px;
     }
+
     .work-carousel .swiper-button-next {
         right: 15px;
     }
+
     .work-carousel .swiper-button-prev {
         left: 15px;
     }
+
     .work-carousel .content .cont h6 {
         letter-spacing: 2px;
     }
+
     .work-carousel .content .cont h4 {
         font-size: 20px;
     }
+
     .work-carousel .content .cont {
         width: 100%;
         text-align: center;
         left: 0;
         bottom: 20px;
     }
+
     .process .content ul li span {
         font-size: 40px;
         width: 60px;
     }
+
     .process .content {
         padding: 80px 25px;
     }
+
     .testimonials p {
         font-size: 16px;
     }
+
     .testimonials .quote-text .quote-icon {
         right: 30px;
         width: 40px;
     }
+
     .agency .img .icon {
         width: 70px;
         height: 70px;
         line-height: 90px;
     }
+
     .agency .img .icon svg {
         width: 60px;
     }
+
     .agency .img .exp h2 {
         font-size: 55px;
     }
+
     .extra-title,
     .agency .content h4,
     .min-area .content h4 {
         font-size: 22px;
     }
+
     .page-header .img-wrapper .title h3 {
         font-size: 40px;
     }
+
     .call-action .content h2,
     .call-action.next .content h2 {
         font-size: 38px;
     }
+
     .nt-blog-pg.single .post .content .share-info {
         display: block;
     }
+
     .nt-blog-pg.single .post .content .share-info .tags,
     .nt-blog-pg.single .post .content .share-info .social {
         display: block;
         width: 100%;
         text-align: center;
     }
+
     .nt-blog-pg.single .post .content .share-info .tags {
         margin-top: 20px;
     }
+
     .nt-blog-pg.single .post .author {
         padding: 30px 15px;
     }
+
     .nt-blog-pg.single .post .author .author-img {
         display: block;
         width: 120px;
         margin: 0 auto 30px;
     }
+
     .nt-blog-pg.single .post .author .info {
         display: block;
         padding: 0;
         text-align: center;
     }
+
     .nt-blog-pg.single .comments-area .item .comment-img {
         display: block;
         margin: 0 auto 30px;
         width: 60px;
     }
+
     .nt-blog-pg.single .comments-area .item .info {
         display: block;
         padding: 0;
         text-align: center;
     }
+
     .nt-blog-pg.single .comments-area .item.relped {
         margin-left: 0px;
     }
+
     .nt-blog-pg.single .comments-area .item .info h6 {
         font-size: 14px;
         letter-spacing: 1px;
     }
+
     .nt-blog-pg.single .comments-area .item .info .replay {
         top: -25px;
     }
+
     .portfolio.gutter .gallery .items {
         margin-top: 30px;
         padding: 0 15px;
     }
+
     .portfolio .filtering span {
         margin: 0 6px;
         font-size: 13px;
         line-height: 1.6;
     }
+
     .portfolio .filtering span:after {
         display: none;
     }
 }
 
 /* ====================== [ End Responsive ] ====================== */
+
+.video-modal {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 991px) {
+    .video-modal .modal-dialog {
+        margin: 1rem;
+    }
+}
+
+.video-modal .modal-dialog {
+    max-width: 900px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.video-modal .modal-content {
+    align-items: flex-end;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+.video-modal .modal-content .close {
+    opacity: 1;
+    color: #fff;
+    font-size: 0;
+    line-height: 0;
+}
+
+.video-modal .modal-content .modal-body {
+    padding: 0;
+    padding-top: 10px;
+}
